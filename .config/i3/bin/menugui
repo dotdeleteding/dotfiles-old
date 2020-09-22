@@ -1,0 +1,15 @@
+#!/usr/bin/sh
+
+df="File Manager\nWeb Browser\nMusic\nKeePassXC\nScreen Recorder\nTelegram"
+
+tryg=$(echo -e "$df" | sort | dmenu -fn 'agave Nerd Font-10' -l 10 -i -p 'GUI Apps: ')
+
+case "$tryg" in
+	"File Manager")thunar;;
+	"Web Browser")firefox;;
+	"Music")spotify;;
+	"KeePassXC")keepassxc;;
+	"Telegram")telegram-desktop;;
+	"Screen Recorder")simplescreenrecord;;
+esac
+

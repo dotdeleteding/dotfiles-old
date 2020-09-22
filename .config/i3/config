@@ -1,0 +1,349 @@
+set $mod Mod1
+
+set $exec	exec --no-startup-id
+set $execa	exec_always --no-startup-id
+set $system "[e] Logout - [l] Lock - [s] Suspend - [h] Hibernate - [r] Reboot - [Shift+s] Shutdown"
+set $lock   betterlockscreen -l blur
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+1 exec ~/.config/i3/bin/menu
+bindsym $mod+2 exec ~/.config/i3/bin/menugui
+# bindsym $mod+1 exec urxvt -e ranger
+# bindsym $mod+2 exec spotify
+# bindsym $mod+3 exec firefox
+# bindsym $mod+4 exec keepassxc
+# bindsym $mod+5 exec telegram-desktop
+# bindsym $mod+6 exec urxvt -e cmus
+# bindsym $mod+7 exec urxvt -e newsboat
+# bindsym $mod+8 exec
+bindsym $mod+9 exec 
+bindsym $mod+0 exec 
+
+bindsym $mod+Ctrl+Return exec
+bindsym $mod+Ctrl+1 exec 
+bindsym $mod+Ctrl+2 exec 
+bindsym $mod+Ctrl+3 exec 
+bindsym $mod+Ctrl+4 exec 
+bindsym $mod+Ctrl+5 exec 
+bindsym $mod+Ctrl+6 exec 
+bindsym $mod+Ctrl+7 exec 
+bindsym $mod+Ctrl+8 exec 
+bindsym $mod+Ctrl+9 exec 
+bindsym $mod+Ctrl+0 exec 
+
+bindsym $mod+Shift+1 workspace number $ws1
+bindsym $mod+Shift+2 workspace number $ws2
+bindsym $mod+Shift+3 workspace number $ws3
+bindsym $mod+Shift+4 workspace number $ws4
+bindsym $mod+Shift+5 workspace number $ws5
+bindsym $mod+Shift+6 workspace number $ws6
+bindsym $mod+Shift+7 workspace number $ws7
+bindsym $mod+Shift+8 workspace number $ws8
+bindsym $mod+Shift+9 workspace number $ws9
+bindsym $mod+Shift+0 workspace number $ws10
+
+bindsym $mod+Shift+Ctrl+1 move container to workspace number $ws1
+bindsym $mod+Shift+Ctrl+2 move container to workspace number $ws2
+bindsym $mod+Shift+Ctrl+3 move container to workspace number $ws3
+bindsym $mod+Shift+Ctrl+4 move container to workspace number $ws4
+bindsym $mod+Shift+Ctrl+5 move container to workspace number $ws5
+bindsym $mod+Shift+Ctrl+6 move container to workspace number $ws6
+bindsym $mod+Shift+Ctrl+7 move container to workspace number $ws7
+bindsym $mod+Shift+Ctrl+8 move container to workspace number $ws8
+bindsym $mod+Shift+Ctrl+9 move container to workspace number $ws9
+bindsym $mod+Shift+Ctrl+0 move container to workspace number $ws10
+
+
+bindsym $mod+a focus parent
+# bindsym $mod+Shift+a 
+# bindsym $mod+Shift+Ctrl+a
+# bindsym $mod+Ctrl+a
+
+bindsym $mod+b exec ~/.config/i3/bin/bluetooth
+# bindsym $mod+Shift+b
+# bindsym $mod+Shift+Ctrl+b
+# bindsym $mod+Ctrl+b
+
+# bindsym $mod+c 
+bindsym $mod+Shift+c reload
+# bindsym $mod+Shift+Ctrl+c
+# bindsym $mod+Ctrl+c
+
+bindsym $mod+d $exec dmenu_run -fn 'agave Nerd Font-10' -l 10 -p 'Menu: '
+bindsym $mod+Shift+d $exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'agave Nerd Font-10' -l 10 -p 'Menu: '"
+# bindsym $mod+Shift+Ctrl+d
+# bindsym $mod+Ctrl+d
+
+bindsym $mod+e layout toggle split
+# bindsym $mod+Shift+e 
+# bindsym $mod+Shift+Ctrl+e
+# bindsym $mod+Ctrl+e
+
+bindsym $mod+f fullscreen toggle
+# bindsym $mod+Shift+f 
+# bindsym $mod+Shift+Ctrl+f
+# bindsym $mod+Ctrl+f
+
+# bindsym $mod+g 
+# bindsym $mod+Shift+g 
+# bindsym $mod+Shift+Ctrl+g
+# bindsym $mod+Ctrl+g
+
+bindsym $mod+h split h; $exec notify-send 'Tile Horizontal'
+# bindsym $mod+Shift+h 
+# bindsym $mod+Shift+Ctrl+h
+# bindsym $mod+Ctrl+h
+
+# bindsym $mod+i 
+# bindsym $mod+Shift+i 
+# bindsym $mod+Shift+Ctrl+i
+# bindsym $mod+Ctrl+i
+
+bindsym $mod+j resize shrink width 10 px or 10 ppt
+bindsym $mod+Shift+j focus left
+# bindsym $mod+Shift+Ctrl+j
+# bindsym $mod+Ctrl+j
+
+bindsym $mod+k resize grow height 10 px or 10 ppt
+bindsym $mod+Shift+k focus down
+# bindsym $mod+Shift+Ctrl+k
+# bindsym $mod+Ctrl+k
+
+bindsym $mod+l resize shrink height 10 px or 10 ppt
+bindsym $mod+Shift+l focus up
+# bindsym $mod+Shift+Ctrl+l
+# bindsym $mod+Ctrl+l
+
+# bindsym $mod+m
+# bindsym $mod+Shift+m 
+# bindsym $mod+Shift+Ctrl+m
+# bindsym $mod+Ctrl+m
+ 
+# bindsym $mod+n
+# bindsym $mod+Shift+n 
+# bindsym $mod+Shift+Ctrl+n
+# bindsym $mod+Ctrl+n
+ 
+# bindsym $mod+o 
+# bindsym $mod+Shift+o 
+# bindsym $mod+Shift+Ctrl+o
+# bindsym $mod+Ctrl+o
+ 
+# bindsym $mod+p 
+# bindsym $mod+Shift+p 
+# bindsym $mod+Shift+Ctrl+p
+# bindsym $mod+Ctrl+p
+
+bindsym $mod+q exec ~/.config/i3/bin/power
+bindsym $mod+Shift+q kill
+# bindsym $mod+Shift+Ctrl+q
+# bindsym $mod+Ctrl+q
+
+# bindsym $mod+r 
+bindsym $mod+Shift+r restart
+# bindsym $mod+Shift+Ctrl+r
+# bindsym $mod+Ctrl+r
+
+bindsym $mod+s layout stacking
+bindsym $mod+Shift+s sticky toggle
+# bindsym $mod+Shift+Ctrl+s
+# bindsym $mod+Ctrl+s
+
+# bindsym $mod+t 
+# bindsym $mod+Shift+t 
+# bindsym $mod+Shift+Ctrl+t
+# bindsym $mod+Ctrl+t
+ 
+# bindsym $mod+u 
+# bindsym $mod+Shift+u 
+# bindsym $mod+Shift+Ctrl+u
+# bindsym $mod+Ctrl+u
+
+bindsym $mod+v split v; $exec notify-send 'Tile Vertical'
+# bindsym $mod+Shift+v 
+# bindsym $mod+Shift+Ctrl+v
+# bindsym $mod+Ctrl+v
+
+bindsym $mod+w layout tabbed
+# bindsym $mod+Shift+w 
+# bindsym $mod+Shift+Ctrl+w
+# bindsym $mod+Ctrl+w
+
+# bindsym $mod+x 
+# bindsym $mod+Shift+x 
+# bindsym $mod+Shift+Ctrl+x
+# bindsym $mod+Ctrl+x
+
+bindsym $mod+y $exec flameshot gui -p ~/Pictures/Screenshots # Screenshot with funtion
+bindsym $mod+Shift+y $exec flameshot full -p ~/Pictures/Screenshots $ Screenshot fully
+# bindsym $mod+Shift+Ctrl+y
+# bindsym $mod+Ctrl+y
+
+bindsym $mod+z focus child
+# bindsym $mod+Shift+z 
+# bindsym $mod+Shift+Ctrl+z
+# bindsym $mod+Ctrl+z
+
+bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+Ctrl+space
+# bindsym $mod+Ctrl+space
+
+bindsym $mod+semicolon focus right
+bindsym $mod+Shift+semicolon resize grow width 5 px or 5 ppt
+# bindsym $mod+Shift+Ctrl+semicolon
+# bindsym $mod+Ctrl+semicolon
+
+bindsym $mod+Left focus left
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Ctrl+Left resize shrink width 5 px or 5 ppt
+bindsym $mod+Ctrl+Left workspace prev
+
+bindsym $mod+Down focus down
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Ctrl+Down resize grow height 5 px or 5 ppt
+# bindsym $mod+Ctrl+Down
+
+bindsym $mod+Right focus right
+bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Ctrl+Right resize grow width 5 px or 5 ppt
+bindsym $mod+Ctrl+Right workspace next
+
+bindsym $mod+Up focus up
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Ctrl+Up resize shrink height 5 px or 5 ppt
+# bindsym $mod+Ctrl+Up
+ 
+bindsym Print exec scrot ~/Pictures/Screenshots/%Y-%m-%d_%T.png; $exec notify-send 'Screenshot taken'
+bindsym $mod+Print exec scrot -s ~/Pictures/Screenshots/%Y-%m-%d_%T.png; $exec notify-send 'Screenshot taken' 
+
+bindsym XF86AudioRaiseVolume $exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume $exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute $exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute $exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86TouchpadToggle $exec (synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient 'TouchpadOn=1'
+bindsym XF86TouchpadOn $exec synclient Touchpadoff=0
+bindsym XF86TouchpadOff $exec synclient Touchpadoff=1
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+
+# App Title when Tabbed
+for_window [class=^.*"] border pixel 1
+for_window [class=".*"] title_format "<b>%class</b>"
+for_window [class="(?i)terminal.exe"] title_format "<b> Forex</b>"
+for_window [class="(?i)gimp"] title_format "<b> Gimp</b>"
+for_window [class="(?i)KeePassXC"] title_format "<b> KeePassXC</b>"
+for_window [class="(?i)vim"] title_format "<b> VIM Editor</b>"
+for_window [class="(?i)mpv"] title_format "<b>奈 Video Player</b>"
+for_window [class="(?i)TelegramDesktop"] title_format "<b> Telegram</b>"
+for_window [class="(?i)firefox"] title_format "<b> Firefox</b>"
+for_window [class="(?i)urxvt"] title_format "<b> Terminal</b>"
+for_window [class="(?i)Sublime_text"] title_format "<b> Sublime Text</b>"
+for_window [class="(?i)metaeditor.exe"] title_format "<b>Robot Forex Editor</b>"
+for_window [class="(?i)Lxappearance"] title_format "<b> Appearance</b>"
+for_window [class="(?i)feh"] title_format "<b> Photo</b>"
+for_window [class="(?i)libreoffice-writer"] title_format "<b> Office Word</b>"
+for_window [class="(?i)libreoffice-calc"] title_format "<b> Office Excel</b>"
+for_window [class="(?i)libreoffice-impress"] title_format "<b> Office Power Point</b>"
+for_window [class="(?i)libreoffice-draw"] title_format "<b>Office Draw</b>"
+for_window [class="(?i)libreoffice-base"] title_format "<b> Office Database</b>"
+for_window [class="(?i)Atril"] title_format "<b> PDF Viewer</b>"
+for_window [class="(?i)Links"] title_format "<b>爵 Browser</b>"
+for_window [class="(?i)Spotify"] title_format "<b> Spotify</b>"
+for_window [class="(?i)VirtualBox Manager"] title_format "<b> VirtualBox Manager</b>"
+for_window [class="(?i)VirtualBoxVM"] title_format "<b> VirtualBox Machine</b>"
+for_window [class="(?i)Thunar"] title_format "<b> File Manager</b>"
+
+for_window [title="(?i)Links"] title_format "<b>爵 Browser</b>"
+for_window [title="(?i)newsboat"] title_format "<b> News</b>"
+for_window [title="(?i)ranger" ] title_format "<b> File Manager</b>"
+for_window [title="(?i)cmus" ] title_format "<b> Music Player</b>"
+for_window [title="(?i)vim" ] title_format "<b> Vim</b>"
+
+
+new_window 1pixel
+new_float normal
+hide_edge_borders none
+font pango:agave Nerd Font 12px
+font xft:agave Nerd Font 12px
+title_align center
+gaps inner 15
+gaps outer 0
+smart_gaps on
+smart_borders on
+border_radius 0
+
+$execa $HOME/.config/polybar/launch.sh
+$execa feh --bg-fill ~/Pictures/Wallpaper/JB.png
+$exec picom
+$exec xautolock -time 30 -locker "$lock" && exec dpms 0 0 5
+$exec dunst
+for_window [urgent=latest] focus
+floating_modifier $mod
+
+## THEMES ##
+# Theme colors          Border  BG      Font    Indicator   Border Split
+# Selected / Focus 
+client.focused          #173746 #173746 #ffffff #555555     #041017
+client.focused_inactive #173746 #173746 #40575f #555555     #041017
+# Unfocus or selected
+client.unfocused        #14303d #14303d #40575f #999999     #041017
+client.urgent           #173746 #173746 #ffffff #555555     #041017
+client.placeholder      #173746 #173746 #ffffff #555555     #041017
+client.background       #173746
+
+
+# Activate Bar i3status
+
+# mode $system {
+#     bindsym l $exec $lock, mode "default"
+#     bindsym s $exec $lock && systemctl suspend; mode "default"
+#     bindsym e $exec i3-msg exit
+#     bindsym h $exec $lock && systemctl hibernate, mode "default"
+#     bindsym r $exec systemctl reboot, mode "default"
+#     bindsym Shift+s $exec systemctl poweroff, mode "default"
+#     bindsym q mode "default"
+#     bindsym Escape mode "default"
+# }
+
+# bar {
+#     status_command ~/.config/i3status/bin/netspeed
+#     id bar-1
+#     position top
+#     output primary
+#     tray_output primary
+#     separator_symbol ⁞
+#     font pango:MesloLGS NF 11px
+# 	font xft:SauceCodePro Nerd Font, FontAwesome 11px
+#     #  Take a screenshot by right clicking on the bar
+#     bindsym --release button3 exec --no-startup-id import $HOME/Pictures/QuickShoot/Screenshot-$(date +"%Y-%m-%d%T").png; exec notify-send 'Saved in ~/Pictures/QuickShoot'
+# 
+#     colors {
+#         background #173746
+#         statusline #ffffff
+#         # separator #ffffff
+#         focused_workspace  #204d61 #204d61 #ffffff
+#         active_workspace   #333333 #333333 #ffffff
+#         inactive_workspace #173746 #173746 #888888
+#         urgent_workspace   #1f495d #173746 #ffffff
+#         binding_mode       #1f495d #173746 #ffffff
+#     }
+# }
+
+

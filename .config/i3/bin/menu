@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+daftar="File Manager\nWeb Browser\nNews\nMusic\nScreen Record"
+
+try=$(echo -e "$daftar" | sort | dmenu -fn 'agave Nerd Font-10' -l 10 -i -p 'CLI Apps: ')
+
+case "$try" in
+	"File Manager")urxvt -e ranger;;
+	"Web Browser")urxvt -e lynx duckduckgo.com;;
+	"News")urxvt -e newsboat;;
+	"Music")urxvt -e cmus;;
+	"Screen Record")urxvt -e myscreencord;;
+esac
+

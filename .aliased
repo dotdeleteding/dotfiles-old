@@ -1,0 +1,104 @@
+# I3 Config
+alias i3='vim ~/.config/i3/config'
+
+# Pacman Command
+alias pcu="sudo pacman -Syu"
+alias pci="sudo pacman -S"
+alias pcr="sudo pacman -R"
+alias pccr='sudo pacman -Runscd'
+alias pcs="pacman -Ss"
+alias pcrc='sudo pacman -Rsnd'
+alias clean='sudo pacman -Sc'
+alias autoremove='sudo pacman -Rsn $(pacman -Qtdq)'
+alias version='pacman -Q'
+alias detail='pacman -Qi'
+alias aur="yay -S"
+alias aurl="pacman -Qm"
+alias aurr="yay -Runscd"
+alias auru="yay -Syu"
+alias aurs="yay -Ss"
+
+# Reguler command
+alias e='exit'
+alias c='clear'
+alias v='vim'
+alias vz="vim ~/.zshrc"
+alias vv='vim ~/.vimrc'
+alias gd='cd /mnt/mydata/mydata'
+
+# Browser
+alias bro='lynx https://duckduckgo.com/html/'
+
+# Translate
+alias id='trans -show-original n -show-dictionary n -show-languages n -show-prompt-message n -show-alternatives n -t id'
+alias baca='trans -show-original n -show-dictionary n -show-languages n -show-prompt-message n -show-alternatives n -p -t id'
+alias en='trans -show-original n -show-dictionary n -show-languages n -show-prompt-message n -show-alternatives n -t en'
+
+# Systemctl tool
+alias rdns='sudo systemctl restart dnscrypt-proxy'
+alias sdns='systemctl status dnscrypt-proxy'
+alias ctls='systemctl status'
+alias ctlr='sudo systemctl restart'
+alias ctle='sudo systemctl enable'
+alias ctld='sudo systemctl disable'
+alias ctlm='sudo systemctl start'
+alias ctlb='sudo systemctl stop'
+
+# Python shortcut
+alias cyt='cython --embed -o'
+alias kompel='gcc -Os -I /usr/include/python3.8 -lpython3.8 -lpthread -lm -lutil -ldl -o'
+alias pyp='sudo pip install'
+
+# Wiki information
+wiki() {
+    wikit $1 -a > ~/wiki.txt && trans -i ~/wiki.txt -show-original n -show-dictionary n -show-languages n -show-prompt-message n -show-alternatives n -t id
+}
+wikiid() {wikit $1 -a -l id}
+wikien() {wikit $1 -a}
+
+dsize(){
+   du -sh $1 2>/dev/null
+}
+
+# Coffe function
+alias min="sudo coffe -b min"
+alias mid="sudo coffe -b mid"
+alias max="sudo coffe -b max"
+alias statc="coffe status"
+alias hcoffe="coffe -h"
+
+# IP Tables
+alias iton='sudo iptables-restore /etc/iptables/iptables.rules'
+alias itoff='sudo iptables-restore /etc/iptables/empty.rules'
+alias itl='sudo iptables -L'
+alias it='sudo iptables'
+alias itson='sudo ip6tables-restore /etc/iptables/iptables.rules'                 
+alias itsoff='sudo ip6tables-restore /etc/iptables/empty.rules'                   
+alias itsl='sudo ip6tables -L'
+alias its='sudo ip6tables'
+
+# Tools
+alias dl='cd ~/Downloads && wget --show-progress --retry-connrefused -c'
+alias myip='ipsaya'
+alias ijin='chmod +x'
+
+# Mound Flashdisk
+alias fd="udisksctl mount -b /dev/sdb1"
+
+# MTP
+alias smtpd='fusermount -u ~/MTP'
+alias smtpc="simple-mtpfs -o auto_unmount --device 1 ~/MTP"
+
+# USB Guard
+alias usbl='sudo usbguard list-devices'
+alias usblr='sudo usbguard list-rules'
+alias usballow='sudo usbguard allow-devices'
+alias usbblock='sudo usbguard block-devices'
+alias usbno='sudo usbguard reject-devices'
+alias usbrulesok='sudo usbguard append-rule'
+alias usbrulesno='sudo usbguard remove-rule'
+
+# Info
+alias sysinfo='neofetch --ascii ~/.config/neofetch/jb'
+
+alias sx='startx'

@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+menu="Lock\nLog Out\nSleep\nHibernation\nRestart\nShutdown"
+me=$(echo -e "$menu" |  dmenu -fn 'agave Nerd Font-10' -l -10 -p 'Power: ')
+
+case "$me" in
+		Lock)betterlockscreen -l blur;;
+		"Log Out")i3-msg exit;;
+		Sleep)systemctl suspend;;
+		Hibernation)systemctl hibernate;;
+		Restart)systemctl reboot;;
+		Shutdown)systemctl poweroff;;
+esac
+

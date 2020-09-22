@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+c="Connect\nDisconnect"
+z=$(echo -e "$c" | sort | dmenu -fn 'agave Nerd Font-10' -l -10 -p 'Bluetooth: ')
+case "$z" in
+	Connect)
+		choise=`bluetoothctl devices | awk '{print $3}' | sort | dmenu -fn 'agave Nerd Font-10' -l -10 -p 'BT Connect: '`
+		if [[ $(bluetoothctl connect $(bluetoothctl devices | grep $choise | awk '{print $2}') | grep 'Connection') ]]; then notify-send "Connection to $(bluetoothctl devices | grep $choise | awk '{print $3}') successfull"; else notify-send "Failed to connect $(bluetoothctl devices | grep $choise | awk '{print $3}')";fi;;
+	Disconnect)
+		choise=`bluetoothctl devices | awk '{print $3}' | sort | dmenu -fn 'agave Nerd Font-10' -l -10 -p 'BT Disconnect: '`
+		if [[ $(bluetoothctl disconnect $(bluetoothctl devices | grep $choise | awk '{print $2}') | grep 'disconnection') ]]; then notify-send "Disconnection $(bluetoothctl devices | grep $choise | awk '{print $3}') successfull"; else notify-send "Failed to disconnect $(bluetoothctl devices | grep $choise | awk '{print $3}')";fi;;
+esac

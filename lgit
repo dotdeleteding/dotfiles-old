@@ -1,0 +1,70 @@
+#!/usr/bin/sh
+tconf="$(realpath .config)"
+troot="$(realpath .)"
+tuconf=$HOME/.config
+if [[ ! -f $(realpath linked) ]]; then
+
+	ln -s $tconf/awesome $HOME/.config/
+	ln -s $tconf/bspwm $HOME/.config/
+	ln -s $tconf/cmus $HOME/.config/
+	ln -s $tconf/htop $HOME/.config/
+	ln -s $tconf/i3 $HOME/.config/
+	ln -s $tconf/i3status $HOME/.config/
+	ln -s $tconf/mpv $HOME/.config/
+	ln -s $tconf/neofetch $HOME/.config/
+	ln -s $tconf/networkmanager-dmenu $HOME/.config/
+	ln -s $tconf/picom $HOME/.config/
+	ln -s $tconf/polybar $HOME/.config/
+	ln -s $tconf/ranger $HOME/.config/
+	ln -s $tconf/twmn $HOME/.config/
+	ln -s $tconf/cava $HOME/.config/
+	ln -s $tconf/youtube-viewer $HOME/.config/
+	ln -s $tconf/netsurf $HOME/.config/
+	ln -s $tconf/dunst $HOME/.config/
+
+	ln -s $troot/images/Wallpaper.png $HOME/Pictures/JB.png
+	ln -s $troot/.newsboat $HOME/
+	ln -s $troot/.Xresources $HOME/
+	ln -s $troot/.Xresources.d $HOME/
+	ln -s $troot/.urxvt $HOME/
+	ln -s $troot/.xinitrc $HOME/
+	ln -s $troot/.vimrc $HOME/
+	ln -s $troot/.zshrc $HOME/
+	ln -s $troot/.aliased $HOME/.aliased
+	touch $troot/linked
+	echo "Linked"
+
+else
+	
+	unlink $HOME/Pictures/JB.png
+	unlink $HOME/.newsboat
+	unlink $HOME/.urxvt
+	unlink $HOME/.Xresources
+	unlink $HOME/.Xresources.d
+	unlink $HOME/.vimrc
+	unlink $HOME/.aliased
+	unlink $HOME/.zshrc
+	unlink $HOME/.xinitrc
+	
+	unlink $tuconf/awesome
+	unlink $tuconf/bspwm
+	unlink $tuconf/cmus
+	unlink $tuconf/htop
+	unlink $tuconf/i3
+	unlink $tuconf/i3status
+	unlink $tuconf/mpv
+	unlink $tuconf/neofetch
+	unlink $tuconf/networkmanager-dmenu
+	unlink $tuconf/picom
+	unlink $tuconf/polybar
+	unlink $tuconf/ranger
+	unlink $tuconf/twmn
+	unlink $tuconf/cava
+	unlink $tuconf/youtube-viewer
+	unlink $tuconf/netsurf
+	unlink $tuconf/dunst
+
+	rm $troot/linked
+	echo "Unlinked"
+
+fi
