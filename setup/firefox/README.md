@@ -6,6 +6,7 @@ File ini berisikan konfigurasi pada firefox pada about:config. Apa saja yang dit
 2. Blokir chryptominer, cookie pihak ketiga, serta tracker berdasarkan bawaan
 3. Fake User Agent
 4. Mematikan telemetri
+5. Dan lain-lain
 
 ## Tingkatkan
 
