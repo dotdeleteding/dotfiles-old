@@ -8,15 +8,14 @@ set tabstop=4 "Tab with 4 space
 set softtabstop=4 "Tab with 4 space
 set encoding=UTF-8 "Encoding vim
 set nocompatible
-set undodir=~/.vim/undodir
-set undofile
-
 
 call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
 Plug 'scrooloose/nerdtree' "Directory or file system explorer on vim
 Plug 'preservim/nerdcommenter' "Easy to give comment with using block visual
 Plug 'vim-syntastic/syntastic' "Detect error on code
-Plug 'sonph/onehalf', {'rtp': 'vim/'} "Theme for vim
+"Plug 'sonph/onehalf', {'rtp': 'vim/'} "Theme for vim
 Plug 'mg979/vim-visual-multi', {'branch': 'master'} "Block same word in one times, usefull for multiple word with same alphabet
 Plug 'frazrepo/vim-rainbow' "Give color on bracket or parents
 Plug 'vim-airline/vim-airline' "Add horizontal theme for airline
@@ -27,8 +26,10 @@ Plug 'junegunn/fzf.vim' "Sometime want looking file or file explore, this can be
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "Autocomplete for programming
 Plug 'ctrlpvim/ctrlp.vim' "File finder for vim
 Plug '907th/vim-auto-save' "Autosave feature
-Plug 'arcticicestudio/nord-vim' "Theme nord
+"Plug 'arcticicestudio/nord-vim' "Theme nord
 Plug 'ryanoasis/vim-devicons' "Add icon on vim
+Plug 'skywind3000/vim-quickui' "Keymaps"
+"Plug 'cseelus/vim-colors-lucid' "Theme
 call plug#end()
 
 
@@ -64,9 +65,7 @@ let g:rainbow_active = 1
 let g:airline_theme='minimalist'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
-
 let g:airline_powerline_fonts = 1
-
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
@@ -96,12 +95,12 @@ let g:airline_symbols.linenr = ''
 "END of Airline theme
 
 "BEGIN of Theme
-set t_Co=256
-set cursorline
-colorscheme nord
-" let g:airline_theme='onehalfdark'
-" lightline
-" let g:lightline.colorscheme='onehalfdark'
+"set t_Co=256
+"set cursorline
+"colorscheme nord
+"let g:airline_theme='onehalfdark'
+"lightline
+"let g:lightline.colorscheme='onehalfdark'
 "END of Theme
 
 "BEGIN of running file extension programmer file
@@ -134,14 +133,14 @@ endfunc
 "END of Running file extension programmer file
 
 "BEGIN of Config for syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 "END of Config for syntastic
 
 "BEGIN of coc.vim

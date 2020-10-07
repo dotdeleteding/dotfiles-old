@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-editors-menu" label="Editors">
+  <item label="Sublime Text 3"><action name="Execute"><command>subl</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item label="Vim"><action name="Execute"><command>urxvt -e vim</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <item label="Firefox"><action name="Execute"><command>firefox</command><startupnotify><enabled>yes</enabled><wmclass>Firefox</wmclass></startupnotify></action></item>
+  <item label="Chromium"><action name="Execute"><command>chromium</command><startupnotify><enabled>yes</enabled><wmclass>Chromium</wmclass></startupnotify></action></item>
+</menu>
+
+<menu id="apps-office-menu" label="Office">
+  <item label="OpenOffice Base"><action name="Execute"><command>ooffice -base</command></action></item>
+  <item label="OpenOffice Calc"><action name="Execute"><command>ooffice -calc</command></action></item>
+  <item label="OpenOffice Draw"><action name="Execute"><command>ooffice -draw</command></action></item>
+  <item label="OpenOffice Impress"><action name="Execute"><command>ooffice -impress</command></action></item>
+  <item label="OpenOffice Math"><action name="Execute"><command>ooffice -math</command></action></item>
+  <item label="OpenOffice Printer Administration"><action name="Execute"><command>ooffice-printeradmin</command></action></item>
+  <item label="OpenOffice Writer"><action name="Execute"><command>ooffice -writer</command></action></item>
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+  <item label="Spotify"><action name="Execute"><command>spotify</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+</menu>
+
+<menu id="apps-fileman-menu" label="File Managers">
+  <item label="Thunar"><action name="Execute"><command>Thunar</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item label="Ranger"><action name="Execute"><command>urxvt -e ranger</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+</menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+  <item label="Gimp"><action name="Execute"><command>gimp</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item label="Inkscape"><action name="Execute"><command>inkscape</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+</menu>
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager"><action name="Execute"><command>obconf</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item label="Manage Cups Printers"><action name="Execute"><command>xdg-open http://localhost:631/</command><startupnotify><enabled>no</enabled><icon>cups</icon></startupnotify></action></item>
+  <item label="Restart Openbox"><action name="Execute"><command>openbox --restart</command></action></item>
+  <separator />
+  <item label="Reconfigure Openbox"><action name="Reconfigure" /></item>
+</menu>
+
+<menu id="exit-menu" label="Exit">
+  <item label="Log Out"><action name="Execute"><command>openbox --exit</command></action></item>
+  <item label="Shutdown"><action name="Execute"><command>systemctl poweroff</command></action></item>
+  <item label="Restart"><action name="Execute"><command>systemctl reboot</command></action></item>
+  <item label="Suspend"><action name="Execute"><command>systemctl suspend</command></action></item>
+  <item label="Hibernate"><action name="Execute"><command>systemctl hibernate</command></action></item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Applications" />
+    <item label="Open Terminal"><action name="Execute"><command>urxvt</command></action></item>
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-graphics-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-office-menu"/>
+  <menu id="apps-multimedia-menu"/>
+  <menu id="apps-term-menu"/>
+  <menu id="apps-fileman-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <menu id="exit-menu"/>
+</menu>
+</openbox_menu>

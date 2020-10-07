@@ -232,11 +232,11 @@ bindsym XF86AudioRaiseVolume $exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume $exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute $exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute $exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
-bindsym XF86TouchpadToggle $exec (synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient 'TouchpadOn=1'
-bindsym XF86TouchpadOn $exec synclient Touchpadoff=0
-bindsym XF86TouchpadOff $exec synclient Touchpadoff=1
-bindsym XF86MonBrightnessUp exec brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86TouchpadToggle $exec (xinput set-prop 16 "Device Enabled" 1; $exec notify-send 'Touchpad ON') || $exec xinput set-prop 16 "Device Disabled" 0; $exec notify-send 'Touchpad OFF'
+bindsym XF86TouchpadOn $exec xinput set-prop 16 "Device Enabled" 1; $exec notify-send 'Touchpad ON'
+bindsym XF86TouchpadOff $exec xinput set-prop 16 "Device Disbled" 0; $exec notify-send 'Touchpad OFF'
+bindsym XF86MonBrightnessUp exec xbacklight +5
+bindsym XF86MonBrightnessDown exec xbacklight -5%
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
@@ -269,6 +269,7 @@ for_window [class="(?i)Spotify"] title_format "<b> Spotify</b>"
 for_window [class="(?i)VirtualBox Manager"] title_format "<b> VirtualBox Manager</b>"
 for_window [class="(?i)VirtualBoxVM"] title_format "<b> VirtualBox Machine</b>"
 for_window [class="(?i)Thunar"] title_format "<b> File Manager</b>"
+for_window [class="(?i)Chromium"] title_format "<b> Chrome</b>"
 
 for_window [title="(?i)Links"] title_format "<b>爵 Browser</b>"
 for_window [title="(?i)newsboat"] title_format "<b> News</b>"
@@ -290,7 +291,7 @@ smart_borders on
 border_radius 0
 
 $execa $HOME/.config/polybar/launch.sh
-$execa feh --bg-fill ~/Pictures/Wallpaper/JB.png
+$execa feh --bg-fill ~/Pictures/Wallpaper/014.png
 $exec picom
 $exec xautolock -time 30 -locker "$lock" && exec dpms 0 0 5
 $exec dunst

@@ -1,6 +1,6 @@
 ! Colorscheme
 ! special
-*.foreground: #93a1a1
+*.foreground: #cfe7f4
 *.background: #041017
 *.cursorColor: #afbfbf
 
@@ -37,8 +37,7 @@
 *.color15: #fdf6e3 
 
 !! URxvt Appearance
-URxvt.font: xft:agave Nerd Font Mono:size=10
-!! xft:Monofur Nerd Font:size=10
+URxvt.font: xft:agave Nerd Font Mono:size=10, xft:Monofur Nerd Font:size=10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 80x25 
