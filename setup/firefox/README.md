@@ -1,12 +1,12 @@
 ## Apa itu prefs.js
 
-File ini berisikan konfigurasi pada firefox pada about:config. Apa saja yang diterapkan disini?
+prefs.js adalah file yang berisikan konfigurasi firefox pada about:config yang difungsikan sebagai customize, file ini sudah didesain untuk privasi friendly. Apa saja yang diterapkan disini?
 
 1. Randomize Fingerprint
 2. Blokir chryptominer, cookie pihak ketiga, serta tracker berdasarkan bawaan
 3. Fake User Agent
 4. Mematikan telemetri
-5. WebRTC Leaks
+5. Disable WebRTC Leaks
 6. Disable WebGL
 7. Dan lain-lain
 
