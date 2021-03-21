@@ -5,8 +5,8 @@
 *.cursorColor: #afbfbf
 
 ! black
-*.color0: #041017 
-*.color8: #4a697d 
+*.color0: #000000
+*.color8: #373737
 
 ! red 
 *.color1: #d12f2c
@@ -21,8 +21,8 @@
 *.color11: #ecdc00
 
 ! blue
-*.color4: #173746
-*.color12: #24546b
+*.color4: #5f98f6
+*.color12: #0860f2
 
 ! magenta
 *.color5: #696ebf
@@ -33,8 +33,8 @@
 *.color14: #00b291
 
 ! white
-*.color7: #acb6bf
-*.color15: #fdf6e3 
+*.color7: #ffffff
+*.color15: #dddddd
 
 !! URxvt Appearance
 URxvt.font: xft:agave Nerd Font Mono:size=10, xft:Monofur Nerd Font:size=10

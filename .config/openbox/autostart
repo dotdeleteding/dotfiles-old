@@ -16,11 +16,14 @@
 #
 #xfce-mcs-manager &
 #
-
-feh --bg-fill $HOME/Pictures/Wallpaper/003.png &
-lxpolkit & #polkit (password popup)
-clipit & #a tray clipboard manager
-picom & #the compositor
+bluetooth-autoconnect &
+feh --bg-fill $HOME/Pictures/Wallpaper/014.png &
+picom --config $HOME/.config/picom/picom.conf & #the compositor
 dunst &
-tint2 & #the panel
-xautolock -time 15 -locker "betterlocker -l blur" -notify 30 -notifier "notify-send -u critical -t 10000 -- 'Locking screen in 30 seconds'" & #locks screen after 30 mins
+$HOME/.config/polybar/launch.sh &
+xautolock -time 30 -locker "betterlockscreen -l blur" &
+#xss-lock betterlockscreen -l blur &
+plank &
+stalonetray --dockapp-mode simple &
+udiskie -2 &
+thunar --daemon &

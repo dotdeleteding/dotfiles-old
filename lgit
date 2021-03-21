@@ -14,6 +14,7 @@ if [[ ! -f $(realpath linked) ]]; then
 	ln -s $tconf/neofetch $HOME/.config/
 	ln -s $tconf/networkmanager-dmenu $HOME/.config/
 	ln -s $tconf/picom $HOME/.config/
+	ln -s $tconf/openbox $HOME/.config/
 	ln -s $tconf/polybar $HOME/.config/
 	ln -s $tconf/ranger $HOME/.config/
 	ln -s $tconf/twmn $HOME/.config/
@@ -56,6 +57,7 @@ else
 	unlink $tuconf/neofetch
 	unlink $tuconf/networkmanager-dmenu
 	unlink $tuconf/picom
+	unlink $tuconf/openbox
 	unlink $tuconf/polybar
 	unlink $tuconf/ranger
 	unlink $tuconf/twmn

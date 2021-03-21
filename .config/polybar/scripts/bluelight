@@ -1,0 +1,14 @@
+#!/bin/bash
+
+main(){
+	temp=$(zenity --entry --text "Temperature")
+
+	if (( $temp < 1000 )) || (( $temp > 25000 )); then
+		zenity --error --title="Error" --text="Only 1000 until 25000" --no-wrap
+		main
+	else
+		redshift -P -O $temp
+	fi
+}
+
+main

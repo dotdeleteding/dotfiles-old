@@ -269,7 +269,7 @@ for_window [class="(?i)Spotify"] title_format "<b> Spotify</b>"
 for_window [class="(?i)VirtualBox Manager"] title_format "<b> VirtualBox Manager</b>"
 for_window [class="(?i)VirtualBoxVM"] title_format "<b> VirtualBox Machine</b>"
 for_window [class="(?i)Thunar"] title_format "<b> File Manager</b>"
-for_window [class="(?i)Chromium"] title_format "<b> Chrome</b>"
+for_window [class="(?i)Chromium"] title_format "<b> Chromium</b>"
 
 for_window [title="(?i)Links"] title_format "<b>爵 Browser</b>"
 for_window [title="(?i)newsboat"] title_format "<b> News</b>"
@@ -295,6 +295,7 @@ $execa feh --bg-fill ~/Pictures/Wallpaper/014.png
 $exec picom
 $exec xautolock -time 30 -locker "$lock" && exec dpms 0 0 5
 $exec dunst
+$exec bluetooth-autoconnect
 for_window [urgent=latest] focus
 floating_modifier $mod
 
@@ -306,7 +307,7 @@ client.focused_inactive #173746 #173746 #40575f #555555     #041017
 # Unfocus or selected
 client.unfocused        #14303d #14303d #40575f #999999     #041017
 client.urgent           #173746 #173746 #ffffff #555555     #041017
-client.placeholder      #173746 #173746 #ffffff #555555     #041017
+client.placeholder      #ffffff #ffffff #333333 #999999     #ffffff
 client.background       #173746
 
 

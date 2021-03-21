@@ -2,46 +2,60 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-<menu id="apps-editors-menu" label="Editors">
-  <item label="Sublime Text 3"><action name="Execute"><command>subl</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
-  <item label="Vim"><action name="Execute"><command>urxvt -e vim</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+<menu id="apps-editors-menu" label="Text Editors">
+  <item icon=".config/openbox/icons/menu/sublime.png" label="Sublime Text 3"><action name="Execute"><command>subl</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/vim.png" label="Vim"><action name="Execute"><command>urxvt -e vim</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
 </menu>
 
 <menu id="apps-net-menu" label="Internet">
-  <item label="Firefox"><action name="Execute"><command>firefox</command><startupnotify><enabled>yes</enabled><wmclass>Firefox</wmclass></startupnotify></action></item>
-  <item label="Chromium"><action name="Execute"><command>chromium</command><startupnotify><enabled>yes</enabled><wmclass>Chromium</wmclass></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/browser.png" label="Firefox"><action name="Execute"><command>firefox</command><startupnotify><enabled>yes</enabled><wmclass>Firefox</wmclass></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/chromium.png" label="Chromium"><action name="Execute"><command>chromium</command><startupnotify><enabled>yes</enabled><wmclass>Chromium</wmclass></startupnotify></action></item>
 </menu>
 
 <menu id="apps-office-menu" label="Office">
-  <item label="OpenOffice Base"><action name="Execute"><command>ooffice -base</command></action></item>
-  <item label="OpenOffice Calc"><action name="Execute"><command>ooffice -calc</command></action></item>
-  <item label="OpenOffice Draw"><action name="Execute"><command>ooffice -draw</command></action></item>
-  <item label="OpenOffice Impress"><action name="Execute"><command>ooffice -impress</command></action></item>
-  <item label="OpenOffice Math"><action name="Execute"><command>ooffice -math</command></action></item>
-  <item label="OpenOffice Printer Administration"><action name="Execute"><command>ooffice-printeradmin</command></action></item>
-  <item label="OpenOffice Writer"><action name="Execute"><command>ooffice -writer</command></action></item>
+  <item icon=".config/openbox/icons/menu/base.png" label="OpenOffice Base"><action name="Execute"><command>office-base</command></action></item>
+  <item icon=".config/openbox/icons/menu/calc.png" label="OpenOffice Calc"><action name="Execute"><command>office-calc</command></action></item>
+  <item icon=".config/openbox/icons/menu/draw.png" label="OpenOffice Draw"><action name="Execute"><command>office-draw</command></action></item>
+  <item icon=".config/openbox/icons/menu/impress.png" label="OpenOffice Impress"><action name="Execute"><command>office-impress</command></action></item>
+  <item icon=".config/openbox/icons/menu/math.png" label="OpenOffice Math"><action name="Execute"><command>office-math</command></action></item>
+  <item icon=".config/openbox/icons/menu/office.png" label="OpenOffice Printer Administration"><action name="Execute"><command>office-printeradmin</command></action></item>
+  <item icon=".config/openbox/icons/menu/writer.png" label="OpenOffice Writer"><action name="Execute"><command>office -writer</command></action></item>
 </menu>
 
-<menu id="apps-multimedia-menu" label="Multimedia">
-  <item label="Spotify"><action name="Execute"><command>spotify</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+<menu id="apps-music-menu" label="Music">
+  <item icon=".config/openbox/icons/menu/spotify.png" label="Spotify"><action name="Execute"><command>spotify</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/music.png" label="CMUS"><action name="Execute"><command>urxvt -e cmus</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+</menu>
+
+<menu id="apps-video-menu" label="Video">
+  <item icon=".config/openbox/icons/menu/vlc.png" label="VLC"><action name="Execute"><command>vlc</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/recorder.png" label="Simple Screen Recorder"><action name="Execute"><command>simplescreenrecorder</command><startupnotify><enable>yes</enable></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/zoom.png" label="Zoom"><action name="Execute"><command>zoom</command><startupnotify><enable>yes</enable></startupnotify></action></item>
 </menu>
 
 <menu id="apps-fileman-menu" label="File Managers">
-  <item label="Thunar"><action name="Execute"><command>Thunar</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
-  <item label="Ranger"><action name="Execute"><command>urxvt -e ranger</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/filemanager.png" label="Thunar"><action name="Execute"><command>thunar</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/filemanager.png" label="Ranger"><action name="Execute"><command>urxvt -e ranger</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
 </menu>
 
 <menu id="apps-graphics-menu" label="Graphics">
-  <item label="Gimp"><action name="Execute"><command>gimp</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
-  <item label="Inkscape"><action name="Execute"><command>inkscape</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/graphic.png" label="Gimp"><action name="Execute"><command>gimp</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
+  <item icon=".config/openbox/icons/menu/inkscape.png" label="Inkscape"><action name="Execute"><command>inkscape</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
 </menu>
 
 <menu id="system-menu" label="System">
+  <item label="LX Appearance"><action name="Execute"><command>lxappearance</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
   <item label="Openbox Configuration Manager"><action name="Execute"><command>obconf</command><startupnotify><enabled>yes</enabled></startupnotify></action></item>
   <item label="Manage Cups Printers"><action name="Execute"><command>xdg-open http://localhost:631/</command><startupnotify><enabled>no</enabled><icon>cups</icon></startupnotify></action></item>
   <item label="Restart Openbox"><action name="Execute"><command>openbox --restart</command></action></item>
   <separator />
   <item label="Reconfigure Openbox"><action name="Reconfigure" /></item>
+</menu>
+
+<menu id="apps-video-editor-menu" label="Video Editor">
+  <item icon=".config/openbox/icons/menu/shotcut.png" label="Shotcut"><action name="Execute"><command>shotcut</command></action></item>
+  <item icon=".config/openbox/icons/menu/lightworks.png" label="Lightworks"><action name="Execute"><command>lightworks</command></action></item>
+  <item icon=".config/openbox/icons/menu/blender.png" label="Blender"><action name="Execute"><command>blender</command></action></item>
 </menu>
 
 <menu id="exit-menu" label="Exit">
@@ -52,18 +66,27 @@
   <item label="Hibernate"><action name="Execute"><command>systemctl hibernate</command></action></item>
 </menu>
 
+<menu id="nettools" label="Net-Admin">
+  <item icon=".config/openbox/icons/menu/cisco.png" label="Cisco Packet Tracer"><action name="Execute"><command>/opt/pt/packettracer</command></action></item>
+</menu>
+
 <menu id="root-menu" label="Openbox 3">
-  <separator label="Applications" />
-    <item label="Open Terminal"><action name="Execute"><command>urxvt</command></action></item>
-  <menu id="apps-editors-menu"/>
-  <menu id="apps-graphics-menu"/>
-  <menu id="apps-net-menu"/>
-  <menu id="apps-office-menu"/>
-  <menu id="apps-multimedia-menu"/>
-  <menu id="apps-term-menu"/>
-  <menu id="apps-fileman-menu"/>
-  <separator label="System" />
-  <menu id="system-menu"/>
-  <menu id="exit-menu"/>
+  <menu icon=".config/openbox/icons/menu/menu.png" label="Applications" id="application" execute="~/.config/openbox/apps.xml" />
+  <item icon=".config/openbox/icons/menu/terminal.png" label="Open Terminal"><action name="Execute"><command>urxvt</command></action></item>
+  <menu icon=".config/openbox/icons/menu/filemanager.png" id="apps-fileman-menu"/>
+  <menu icon=".config/openbox/icons/menu/graphic.png" id="apps-graphics-menu"/>
+  <menu icon=".config/openbox/icons/menu/browser.png" id="apps-net-menu"/>
+  <menu icon=".config/openbox/icons/menu/music.png" id="apps-music-menu"/>
+  <menu icon=".config/openbox/icons/menu/office.png" id="apps-office-menu"/>
+  <menu icon=".config/openbox/icons/menu/vlc.png" id="apps-video-menu"/>
+  <menu icon=".config/openbox/icons/menu/shotcut.png" id="apps-video-editor-menu"/>
+  <menu icon=".config/openbox/icons/menu/vim.png" id="apps-editors-menu"/>
+  <menu icon=".config/openbox/icons/menu/network.png" id="nettools"/>
+  <menu icon=".config/openbox/icons/menu/blackarch.png" id="archstrike" label="Arch Strike"/>
+  <menu icon=".config/openbox/icons/menu/blackarch.png" id="blackarch" label="BlackArch"/>
+  <menu icon=".config/openbox/icons/kali/kali-menu.png" id="kali" label="Kali Tools"/>
+  <separator/>
+  <menu icon=".config/openbox/icons/menu/setting.png" id="system-menu"/>
+  <menu icon=".config/openbox/icons/menu/exit.png" id="exit-menu"/>
 </menu>
 </openbox_menu>

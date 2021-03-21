@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:schemaLocation="http://openbox.org/ file:///usr/share/openbox/menu.xsd">
+	<menu id='archstrike' label='ArchStrike'>
+
+		<menu id='top-strike' label='Top 5 Tools'>
+			<item label='metasploit-framework'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploit-framework' -e sh -c 'metasploit-framework  ; zsh'</command></action></item>
+			<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+			<item label='owasp-zsc-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'owasp-zsc-git' -e sh -c 'owasp-zsc-git  ; zsh'</command></action></item>
+			<item label='xsstrike'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsstrike' -e sh -c 'xsstrike  ; zsh'</command></action></item>
+			<item label='jigsaw'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jigsaw' -e sh -c 'jigsaw  ; zsh'</command></action></item>
+		</menu>
+		<menu id='archstrike-tools' label='All Tools'>
+			<menu id='archstrike-scanners' label='Scanners'>
+				<item label='0trace'><action name='Execute'><command>urxvt -geometry 100x30 -title '0trace' -e sh -c '0trace  ; zsh'</command></action></item>
+				<item label='allthevhosts'><action name='Execute'><command>urxvt -geometry 100x30 -title 'allthevhosts' -e sh -c 'allthevhosts  ; zsh'</command></action></item>
+				<item label='arpwner-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'arpwner-git' -e sh -c 'arpwner-git  ; zsh'</command></action></item>
+				<item label='asp-audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'asp-audit' -e sh -c 'asp-audit  ; zsh'</command></action></item>
+				<item label='bittwist'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bittwist' -e sh -c 'bittwist  ; zsh'</command></action></item>
+				<item label='braa'><action name='Execute'><command>urxvt -geometry 100x30 -title 'braa' -e sh -c 'braa  ; zsh'</command></action></item>
+				<item label='bss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bss' -e sh -c 'bss  ; zsh'</command></action></item>
+				<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+				<item label='callerpy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'callerpy-git' -e sh -c 'callerpy-git  ; zsh'</command></action></item>
+				<item label='canari'><action name='Execute'><command>urxvt -geometry 100x30 -title 'canari' -e sh -c 'canari  ; zsh'</command></action></item>
+				<item label='cangibrina-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cangibrina-git' -e sh -c 'cangibrina-git  ; zsh'</command></action></item>
+				<item label='cansina-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cansina-git' -e sh -c 'cansina-git  ; zsh'</command></action></item>
+				<item label='changeme'><action name='Execute'><command>urxvt -geometry 100x30 -title 'changeme' -e sh -c 'changeme  ; zsh'</command></action></item>
+				<item label='cisco-torch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cisco-torch' -e sh -c 'cisco-torch  ; zsh'</command></action></item>
+				<item label='climber-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'climber-git' -e sh -c 'climber-git  ; zsh'</command></action></item>
+				<item label='complemento'><action name='Execute'><command>urxvt -geometry 100x30 -title 'complemento' -e sh -c 'complemento  ; zsh'</command></action></item>
+				<item label='davtest'><action name='Execute'><command>urxvt -geometry 100x30 -title 'davtest' -e sh -c 'davtest  ; zsh'</command></action></item>
+				<item label='deblaze-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'deblaze-git' -e sh -c 'deblaze-git  ; zsh'</command></action></item>
+				<item label='delta-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'delta-git' -e sh -c 'delta-git  ; zsh'</command></action></item>
+				<item label='dhcpig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dhcpig-git' -e sh -c 'dhcpig-git  ; zsh'</command></action></item>
+				<item label='dirbuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirbuster' -e sh -c 'dirbuster  ; zsh'</command></action></item>
+				<item label='dnmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnmap' -e sh -c 'dnmap  ; zsh'</command></action></item>
+				<item label='dnsa'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnsa' -e sh -c 'dnsa  ; zsh'</command></action></item>
+				<item label='dnsbf-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnsbf-git' -e sh -c 'dnsbf-git  ; zsh'</command></action></item>
+				<item label='dnsenum'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnsenum' -e sh -c 'dnsenum  ; zsh'</command></action></item>
+				<item label='dnspredict'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnspredict' -e sh -c 'dnspredict  ; zsh'</command></action></item>
+				<item label='dnswalk'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnswalk' -e sh -c 'dnswalk  ; zsh'</command></action></item>
+				<item label='driftnet'><action name='Execute'><command>urxvt -geometry 100x30 -title 'driftnet' -e sh -c 'driftnet  ; zsh'</command></action></item>
+				<item label='dripper-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dripper-git' -e sh -c 'dripper-git  ; zsh'</command></action></item>
+				<item label='eh'><action name='Execute'><command>urxvt -geometry 100x30 -title 'eh' -e sh -c 'eh  ; zsh'</command></action></item>
+				<item label='enum4linux'><action name='Execute'><command>urxvt -geometry 100x30 -title 'enum4linux' -e sh -c 'enum4linux  ; zsh'</command></action></item>
+				<item label='enumiax'><action name='Execute'><command>urxvt -geometry 100x30 -title 'enumiax' -e sh -c 'enumiax  ; zsh'</command></action></item>
+				<item label='fierce-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fierce-git' -e sh -c 'fierce-git  ; zsh'</command></action></item>
+				<item label='firewalk'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firewalk' -e sh -c 'firewalk  ; zsh'</command></action></item>
+				<item label='flunym0us'><action name='Execute'><command>urxvt -geometry 100x30 -title 'flunym0us' -e sh -c 'flunym0us  ; zsh'</command></action></item>
+				<item label='ftpmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ftpmap' -e sh -c 'ftpmap  ; zsh'</command></action></item>
+				<item label='funkload'><action name='Execute'><command>urxvt -geometry 100x30 -title 'funkload' -e sh -c 'funkload  ; zsh'</command></action></item>
+				<item label='gitminer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gitminer-git' -e sh -c 'gitminer-git  ; zsh'</command></action></item>
+				<item label='google-explorer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'google-explorer-git' -e sh -c 'google-explorer-git  ; zsh'</command></action></item>
+				<item label='grepforrfi'><action name='Execute'><command>urxvt -geometry 100x30 -title 'grepforrfi' -e sh -c 'grepforrfi  ; zsh'</command></action></item>
+				<item label='icmpquery'><action name='Execute'><command>urxvt -geometry 100x30 -title 'icmpquery' -e sh -c 'icmpquery  ; zsh'</command></action></item>
+				<item label='ike-scan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ike-scan' -e sh -c 'ike-scan  ; zsh'</command></action></item>
+				<item label='ipscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ipscan' -e sh -c 'ipscan  ; zsh'</command></action></item>
+				<item label='jigsaw'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jigsaw' -e sh -c 'jigsaw  ; zsh'</command></action></item>
+				<item label='jsql'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jsql' -e sh -c 'jsql  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+				<item label='linenum-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'linenum-git' -e sh -c 'linenum-git  ; zsh'</command></action></item>
+				<item label='maltego'><action name='Execute'><command>urxvt -geometry 100x30 -title 'maltego' -e sh -c 'maltego  ; zsh'</command></action></item>
+				<item label='metasploit-framework'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploit-framework' -e sh -c 'metasploit-framework  ; zsh'</command></action></item>
+				<item label='mssqlscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mssqlscan' -e sh -c 'mssqlscan  ; zsh'</command></action></item>
+				<item label='nbtool-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nbtool-git' -e sh -c 'nbtool-git  ; zsh'</command></action></item>
+				<item label='nmbscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nmbscan' -e sh -c 'nmbscan  ; zsh'</command></action></item>
+				<item label='o-saft-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'o-saft-git' -e sh -c 'o-saft-git  ; zsh'</command></action></item>
+				<item label='onesixtyone'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onesixtyone' -e sh -c 'onesixtyone  ; zsh'</command></action></item>
+				<item label='onetwopunch-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onetwopunch-git' -e sh -c 'onetwopunch-git  ; zsh'</command></action></item>
+				<item label='onioff'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onioff' -e sh -c 'onioff  ; zsh'</command></action></item>
+				<item label='onionscan-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onionscan-git' -e sh -c 'onionscan-git  ; zsh'</command></action></item>
+				<item label='pacemaker-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pacemaker-git' -e sh -c 'pacemaker-git  ; zsh'</command></action></item>
+				<item label='paketto'><action name='Execute'><command>urxvt -geometry 100x30 -title 'paketto' -e sh -c 'paketto  ; zsh'</command></action></item>
+				<item label='pentbox'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pentbox' -e sh -c 'pentbox  ; zsh'</command></action></item>
+				<item label='pnscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pnscan' -e sh -c 'pnscan  ; zsh'</command></action></item>
+				<item label='pytbull'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pytbull' -e sh -c 'pytbull  ; zsh'</command></action></item>
+				<item label='redfang'><action name='Execute'><command>urxvt -geometry 100x30 -title 'redfang' -e sh -c 'redfang  ; zsh'</command></action></item>
+				<item label='redpoint-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'redpoint-git' -e sh -c 'redpoint-git  ; zsh'</command></action></item>
+				<item label='ruler-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ruler-git' -e sh -c 'ruler-git  ; zsh'</command></action></item>
+				<item label='samhain'><action name='Execute'><command>urxvt -geometry 100x30 -title 'samhain' -e sh -c 'samhain  ; zsh'</command></action></item>
+				<item label='scansploit-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scansploit-git' -e sh -c 'scansploit-git  ; zsh'</command></action></item>
+				<item label='scanssh'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scanssh' -e sh -c 'scanssh  ; zsh'</command></action></item>
+				<item label='scrape-dns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scrape-dns-git' -e sh -c 'scrape-dns-git  ; zsh'</command></action></item>
+				<item label='secscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'secscan' -e sh -c 'secscan  ; zsh'</command></action></item>
+				<item label='smtp-user-enum'><action name='Execute'><command>urxvt -geometry 100x30 -title 'smtp-user-enum' -e sh -c 'smtp-user-enum  ; zsh'</command></action></item>
+				<item label='snmpscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snmpscan' -e sh -c 'snmpscan  ; zsh'</command></action></item>
+				<item label='snort'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snort' -e sh -c 'snort  ; zsh'</command></action></item>
+				<item label='spipscan-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'spipscan-git' -e sh -c 'spipscan-git  ; zsh'</command></action></item>
+				<item label='ssh-audit-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssh-audit-git' -e sh -c 'ssh-audit-git  ; zsh'</command></action></item>
+				<item label='sslcaudit-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sslcaudit-git' -e sh -c 'sslcaudit-git  ; zsh'</command></action></item>
+				<item label='stickykeyshunter-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stickykeyshunter-git' -e sh -c 'stickykeyshunter-git  ; zsh'</command></action></item>
+				<item label='sublist3r-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sublist3r-git' -e sh -c 'sublist3r-git  ; zsh'</command></action></item>
+				<item label='synscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'synscan' -e sh -c 'synscan  ; zsh'</command></action></item>
+				<item label='tiger'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tiger' -e sh -c 'tiger  ; zsh'</command></action></item>
+				<item label='tlssled'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tlssled' -e sh -c 'tlssled  ; zsh'</command></action></item>
+				<item label='tnscmd10g'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tnscmd10g' -e sh -c 'tnscmd10g  ; zsh'</command></action></item>
+				<item label='topera-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'topera-git' -e sh -c 'topera-git  ; zsh'</command></action></item>
+				<item label='tplmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tplmap' -e sh -c 'tplmap  ; zsh'</command></action></item>
+				<item label='unicornscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'unicornscan' -e sh -c 'unicornscan  ; zsh'</command></action></item>
+				<item label='unix-privesc-check'><action name='Execute'><command>urxvt -geometry 100x30 -title 'unix-privesc-check' -e sh -c 'unix-privesc-check  ; zsh'</command></action></item>
+				<item label='upnpscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'upnpscan' -e sh -c 'upnpscan  ; zsh'</command></action></item>
+				<item label='vbscan-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'vbscan-git' -e sh -c 'vbscan-git  ; zsh'</command></action></item>
+				<item label='videosnarf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'videosnarf' -e sh -c 'videosnarf  ; zsh'</command></action></item>
+				<item label='wafw00f'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wafw00f' -e sh -c 'wafw00f  ; zsh'</command></action></item>
+				<item label='wapiti'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wapiti' -e sh -c 'wapiti  ; zsh'</command></action></item>
+				<item label='webpwn3r-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webpwn3r-git' -e sh -c 'webpwn3r-git  ; zsh'</command></action></item>
+				<item label='webrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webrute' -e sh -c 'webrute  ; zsh'</command></action></item>
+				<item label='wig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wig-git' -e sh -c 'wig-git  ; zsh'</command></action></item>
+				<item label='xsspy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsspy-git' -e sh -c 'xsspy-git  ; zsh'</command></action></item>
+				<item label='yersinia'><action name='Execute'><command>urxvt -geometry 100x30 -title 'yersinia' -e sh -c 'yersinia  ; zsh'</command></action></item>
+				<item label='zgrab'><action name='Execute'><command>urxvt -geometry 100x30 -title 'zgrab' -e sh -c 'zgrab  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-misc' label='Misc'>
+				<item label='3proxy'><action name='Execute'><command>urxvt -geometry 100x30 -title '3proxy' -e sh -c '3proxy  ; zsh'</command></action></item>
+				<item label='buildhosts-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'buildhosts-git' -e sh -c 'buildhosts-git  ; zsh'</command></action></item>
+				<item label='burst-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burst-git' -e sh -c 'burst-git  ; zsh'</command></action></item>
+				<item label='bvi'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bvi' -e sh -c 'bvi  ; zsh'</command></action></item>
+				<item label='centry-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'centry-git' -e sh -c 'centry-git  ; zsh'</command></action></item>
+				<item label='cisco-router-config'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cisco-router-config' -e sh -c 'cisco-router-config  ; zsh'</command></action></item>
+				<item label='cloakify-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cloakify-git' -e sh -c 'cloakify-git  ; zsh'</command></action></item>
+				<item label='cryptcat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cryptcat' -e sh -c 'cryptcat  ; zsh'</command></action></item>
+				<item label='crypthook-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crypthook-git' -e sh -c 'crypthook-git  ; zsh'</command></action></item>
+				<item label='dbd'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dbd' -e sh -c 'dbd  ; zsh'</command></action></item>
+				<item label='deen'><action name='Execute'><command>urxvt -geometry 100x30 -title 'deen' -e sh -c 'deen  ; zsh'</command></action></item>
+				<item label='dhcdrop'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dhcdrop' -e sh -c 'dhcdrop  ; zsh'</command></action></item>
+				<item label='dradis'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dradis' -e sh -c 'dradis  ; zsh'</command></action></item>
+				<item label='dvcs-ripper-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dvcs-ripper-git' -e sh -c 'dvcs-ripper-git  ; zsh'</command></action></item>
+				<item label='elettra'><action name='Execute'><command>urxvt -geometry 100x30 -title 'elettra' -e sh -c 'elettra  ; zsh'</command></action></item>
+				<item label='ent'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ent' -e sh -c 'ent  ; zsh'</command></action></item>
+				<item label='evilgrade-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'evilgrade-git' -e sh -c 'evilgrade-git  ; zsh'</command></action></item>
+				<item label='fakemail'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fakemail' -e sh -c 'fakemail  ; zsh'</command></action></item>
+				<item label='flare'><action name='Execute'><command>urxvt -geometry 100x30 -title 'flare' -e sh -c 'flare  ; zsh'</command></action></item>
+				<item label='geoipgen'><action name='Execute'><command>urxvt -geometry 100x30 -title 'geoipgen' -e sh -c 'geoipgen  ; zsh'</command></action></item>
+				<item label='goatrider-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'goatrider-git' -e sh -c 'goatrider-git  ; zsh'</command></action></item>
+				<item label='hashdb'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hashdb' -e sh -c 'hashdb  ; zsh'</command></action></item>
+				<item label='hex2bin'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hex2bin' -e sh -c 'hex2bin  ; zsh'</command></action></item>
+				<item label='http-put'><action name='Execute'><command>urxvt -geometry 100x30 -title 'http-put' -e sh -c 'http-put  ; zsh'</command></action></item>
+				<item label='imagejs-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'imagejs-git' -e sh -c 'imagejs-git  ; zsh'</command></action></item>
+				<item label='inundator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'inundator' -e sh -c 'inundator  ; zsh'</command></action></item>
+				<item label='lanmap2-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lanmap2-git' -e sh -c 'lanmap2-git  ; zsh'</command></action></item>
+				<item label='laudanum'><action name='Execute'><command>urxvt -geometry 100x30 -title 'laudanum' -e sh -c 'laudanum  ; zsh'</command></action></item>
+				<item label='lazagne'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lazagne' -e sh -c 'lazagne  ; zsh'</command></action></item>
+				<item label='leo'><action name='Execute'><command>urxvt -geometry 100x30 -title 'leo' -e sh -c 'leo  ; zsh'</command></action></item>
+				<item label='mibble'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mibble' -e sh -c 'mibble  ; zsh'</command></action></item>
+				<item label='nassl'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nassl' -e sh -c 'nassl  ; zsh'</command></action></item>
+				<item label='nightfall'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nightfall' -e sh -c 'nightfall  ; zsh'</command></action></item>
+				<item label='onioff'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onioff' -e sh -c 'onioff  ; zsh'</command></action></item>
+				<item label='pcapfix'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapfix' -e sh -c 'pcapfix  ; zsh'</command></action></item>
+				<item label='pentmenu'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pentmenu' -e sh -c 'pentmenu  ; zsh'</command></action></item>
+				<item label='perl-tftp'><action name='Execute'><command>urxvt -geometry 100x30 -title 'perl-tftp' -e sh -c 'perl-tftp  ; zsh'</command></action></item>
+				<item label='powerupsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powerupsql-git' -e sh -c 'powerupsql-git  ; zsh'</command></action></item>
+				<item label='pulledpork-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pulledpork-git' -e sh -c 'pulledpork-git  ; zsh'</command></action></item>
+				<item label='pwntools'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pwntools' -e sh -c 'pwntools  ; zsh'</command></action></item>
+				<item label='python2-utidylib-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python2-utidylib-git' -e sh -c 'python2-utidylib-git  ; zsh'</command></action></item>
+				<item label='rr-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rr-git' -e sh -c 'rr-git  ; zsh'</command></action></item>
+				<item label='sec'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sec' -e sh -c 'sec  ; zsh'</command></action></item>
+				<item label='squashfuse-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'squashfuse-git' -e sh -c 'squashfuse-git  ; zsh'</command></action></item>
+				<item label='ssdc'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssdc' -e sh -c 'ssdc  ; zsh'</command></action></item>
+				<item label='sslyze'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sslyze' -e sh -c 'sslyze  ; zsh'</command></action></item>
+				<item label='sstat-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sstat-git' -e sh -c 'sstat-git  ; zsh'</command></action></item>
+				<item label='stompy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stompy' -e sh -c 'stompy  ; zsh'</command></action></item>
+				<item label='tcpxtract'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tcpxtract' -e sh -c 'tcpxtract  ; zsh'</command></action></item>
+				<item label='uatester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'uatester' -e sh -c 'uatester  ; zsh'</command></action></item>
+				<item label='vfeed-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'vfeed-git' -e sh -c 'vfeed-git  ; zsh'</command></action></item>
+				<item label='wcc-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wcc-git' -e sh -c 'wcc-git  ; zsh'</command></action></item>
+				<item label='wildpwn-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wildpwn-git' -e sh -c 'wildpwn-git  ; zsh'</command></action></item>
+				<item label='wol-e'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wol-e' -e sh -c 'wol-e  ; zsh'</command></action></item>
+				<item label='wuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wuzz' -e sh -c 'wuzz  ; zsh'</command></action></item>
+				<item label='yaf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'yaf' -e sh -c 'yaf  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-crackers' label='Crackers'>
+				<item label='acccheck'><action name='Execute'><command>urxvt -geometry 100x30 -title 'acccheck' -e sh -c 'acccheck  ; zsh'</command></action></item>
+				<item label='asleap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'asleap' -e sh -c 'asleap  ; zsh'</command></action></item>
+				<item label='beleth-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'beleth-git' -e sh -c 'beleth-git  ; zsh'</command></action></item>
+				<item label='bkhive'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bkhive' -e sh -c 'bkhive  ; zsh'</command></action></item>
+				<item label='brut3k1t-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'brut3k1t-git' -e sh -c 'brut3k1t-git  ; zsh'</command></action></item>
+				<item label='brutessh'><action name='Execute'><command>urxvt -geometry 100x30 -title 'brutessh' -e sh -c 'brutessh  ; zsh'</command></action></item>
+				<item label='cewl'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cewl' -e sh -c 'cewl  ; zsh'</command></action></item>
+				<item label='cisco-ocs'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cisco-ocs' -e sh -c 'cisco-ocs  ; zsh'</command></action></item>
+				<item label='cmospwd'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cmospwd' -e sh -c 'cmospwd  ; zsh'</command></action></item>
+				<item label='crackle-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crackle-git' -e sh -c 'crackle-git  ; zsh'</command></action></item>
+				<item label='crackserver-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crackserver-git' -e sh -c 'crackserver-git  ; zsh'</command></action></item>
+				<item label='crunch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crunch' -e sh -c 'crunch  ; zsh'</command></action></item>
+				<item label='cupp-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cupp-git' -e sh -c 'cupp-git  ; zsh'</command></action></item>
+				<item label='dbpwaudit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dbpwaudit' -e sh -c 'dbpwaudit  ; zsh'</command></action></item>
+				<item label='dpeparser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dpeparser' -e sh -c 'dpeparser  ; zsh'</command></action></item>
+				<item label='eapmd5pass'><action name='Execute'><command>urxvt -geometry 100x30 -title 'eapmd5pass' -e sh -c 'eapmd5pass  ; zsh'</command></action></item>
+				<item label='fang'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fang' -e sh -c 'fang  ; zsh'</command></action></item>
+				<item label='fern-wifi-cracker-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fern-wifi-cracker-git' -e sh -c 'fern-wifi-cracker-git  ; zsh'</command></action></item>
+				<item label='hashtag-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hashtag-git' -e sh -c 'hashtag-git  ; zsh'</command></action></item>
+				<item label='iheartxor'><action name='Execute'><command>urxvt -geometry 100x30 -title 'iheartxor' -e sh -c 'iheartxor  ; zsh'</command></action></item>
+				<item label='ikecrack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ikecrack' -e sh -c 'ikecrack  ; zsh'</command></action></item>
+				<item label='interrogate'><action name='Execute'><command>urxvt -geometry 100x30 -title 'interrogate' -e sh -c 'interrogate  ; zsh'</command></action></item>
+				<item label='jbrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jbrute' -e sh -c 'jbrute  ; zsh'</command></action></item>
+				<item label='johnny'><action name='Execute'><command>urxvt -geometry 100x30 -title 'johnny' -e sh -c 'johnny  ; zsh'</command></action></item>
+				<item label='khc'><action name='Execute'><command>urxvt -geometry 100x30 -title 'khc' -e sh -c 'khc  ; zsh'</command></action></item>
+				<item label='kwprocessor'><action name='Execute'><command>urxvt -geometry 100x30 -title 'kwprocessor' -e sh -c 'kwprocessor  ; zsh'</command></action></item>
+				<item label='lodowep'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lodowep' -e sh -c 'lodowep  ; zsh'</command></action></item>
+				<item label='maskprocessor'><action name='Execute'><command>urxvt -geometry 100x30 -title 'maskprocessor' -e sh -c 'maskprocessor  ; zsh'</command></action></item>
+				<item label='mdcrack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mdcrack' -e sh -c 'mdcrack  ; zsh'</command></action></item>
+				<item label='onesixtyone'><action name='Execute'><command>urxvt -geometry 100x30 -title 'onesixtyone' -e sh -c 'onesixtyone  ; zsh'</command></action></item>
+				<item label='pack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pack' -e sh -c 'pack  ; zsh'</command></action></item>
+				<item label='patator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'patator' -e sh -c 'patator  ; zsh'</command></action></item>
+				<item label='phoss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'phoss' -e sh -c 'phoss  ; zsh'</command></action></item>
+				<item label='phrasendrescher'><action name='Execute'><command>urxvt -geometry 100x30 -title 'phrasendrescher' -e sh -c 'phrasendrescher  ; zsh'</command></action></item>
+				<item label='rainbowcrack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rainbowcrack' -e sh -c 'rainbowcrack  ; zsh'</command></action></item>
+				<item label='ridenum-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ridenum-git' -e sh -c 'ridenum-git  ; zsh'</command></action></item>
+				<item label='shard'><action name='Execute'><command>urxvt -geometry 100x30 -title 'shard' -e sh -c 'shard  ; zsh'</command></action></item>
+				<item label='sidguesser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sidguesser' -e sh -c 'sidguesser  ; zsh'</command></action></item>
+				<item label='sqlpat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlpat' -e sh -c 'sqlpat  ; zsh'</command></action></item>
+				<item label='statsprocessor'><action name='Execute'><command>urxvt -geometry 100x30 -title 'statsprocessor' -e sh -c 'statsprocessor  ; zsh'</command></action></item>
+				<item label='sucrack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sucrack' -e sh -c 'sucrack  ; zsh'</command></action></item>
+				<item label='thc-pptp-bruter'><action name='Execute'><command>urxvt -geometry 100x30 -title 'thc-pptp-bruter' -e sh -c 'thc-pptp-bruter  ; zsh'</command></action></item>
+				<item label='thcsmartbrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'thcsmartbrute' -e sh -c 'thcsmartbrute  ; zsh'</command></action></item>
+				<item label='ufo-wardriving'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ufo-wardriving' -e sh -c 'ufo-wardriving  ; zsh'</command></action></item>
+				<item label='vncrack'><action name='Execute'><command>urxvt -geometry 100x30 -title 'vncrack' -e sh -c 'vncrack  ; zsh'</command></action></item>
+				<item label='wmat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wmat' -e sh -c 'wmat  ; zsh'</command></action></item>
+				<item label='zulu'><action name='Execute'><command>urxvt -geometry 100x30 -title 'zulu' -e sh -c 'zulu  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-voip' label='VoIP'>
+				<item label='ace'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ace' -e sh -c 'ace  ; zsh'</command></action></item>
+				<item label='erase-registrations'><action name='Execute'><command>urxvt -geometry 100x30 -title 'erase-registrations' -e sh -c 'erase-registrations  ; zsh'</command></action></item>
+				<item label='g711conversions'><action name='Execute'><command>urxvt -geometry 100x30 -title 'g711conversions' -e sh -c 'g711conversions  ; zsh'</command></action></item>
+				<item label='hack_library'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hack_library' -e sh -c 'hack_library  ; zsh'</command></action></item>
+				<item label='iaxflood'><action name='Execute'><command>urxvt -geometry 100x30 -title 'iaxflood' -e sh -c 'iaxflood  ; zsh'</command></action></item>
+				<item label='pcapsipdump'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapsipdump' -e sh -c 'pcapsipdump  ; zsh'</command></action></item>
+				<item label='protos-sip'><action name='Execute'><command>urxvt -geometry 100x30 -title 'protos-sip' -e sh -c 'protos-sip  ; zsh'</command></action></item>
+				<item label='redirectpoison'><action name='Execute'><command>urxvt -geometry 100x30 -title 'redirectpoison' -e sh -c 'redirectpoison  ; zsh'</command></action></item>
+				<item label='sipp'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sipp' -e sh -c 'sipp  ; zsh'</command></action></item>
+				<item label='sipsak'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sipsak' -e sh -c 'sipsak  ; zsh'</command></action></item>
+				<item label='voiphopper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'voiphopper' -e sh -c 'voiphopper  ; zsh'</command></action></item>
+				<item label='voipong'><action name='Execute'><command>urxvt -geometry 100x30 -title 'voipong' -e sh -c 'voipong  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-forensics' label='Forensics'>
+				<item label='afflib'><action name='Execute'><command>urxvt -geometry 100x30 -title 'afflib' -e sh -c 'afflib  ; zsh'</command></action></item>
+				<item label='air'><action name='Execute'><command>urxvt -geometry 100x30 -title 'air' -e sh -c 'air  ; zsh'</command></action></item>
+				<item label='automator-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'automator-git' -e sh -c 'automator-git  ; zsh'</command></action></item>
+				<item label='autopsy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'autopsy' -e sh -c 'autopsy  ; zsh'</command></action></item>
+				<item label='binwally-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'binwally-git' -e sh -c 'binwally-git  ; zsh'</command></action></item>
+				<item label='canari'><action name='Execute'><command>urxvt -geometry 100x30 -title 'canari' -e sh -c 'canari  ; zsh'</command></action></item>
+				<item label='chipsec'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chipsec' -e sh -c 'chipsec  ; zsh'</command></action></item>
+				<item label='chkrootkit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chkrootkit' -e sh -c 'chkrootkit  ; zsh'</command></action></item>
+				<item label='dumpzilla'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dumpzilla' -e sh -c 'dumpzilla  ; zsh'</command></action></item>
+				<item label='eindeutig'><action name='Execute'><command>urxvt -geometry 100x30 -title 'eindeutig' -e sh -c 'eindeutig  ; zsh'</command></action></item>
+				<item label='firmwalker-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firmwalker-git' -e sh -c 'firmwalker-git  ; zsh'</command></action></item>
+				<item label='guymager'><action name='Execute'><command>urxvt -geometry 100x30 -title 'guymager' -e sh -c 'guymager  ; zsh'</command></action></item>
+				<item label='hashdb'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hashdb' -e sh -c 'hashdb  ; zsh'</command></action></item>
+				<item label='indxparse-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'indxparse-git' -e sh -c 'indxparse-git  ; zsh'</command></action></item>
+				<item label='interrogate'><action name='Execute'><command>urxvt -geometry 100x30 -title 'interrogate' -e sh -c 'interrogate  ; zsh'</command></action></item>
+				<item label='iphoneanalyzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'iphoneanalyzer' -e sh -c 'iphoneanalyzer  ; zsh'</command></action></item>
+				<item label='lazagne'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lazagne' -e sh -c 'lazagne  ; zsh'</command></action></item>
+				<item label='make-pdf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'make-pdf' -e sh -c 'make-pdf  ; zsh'</command></action></item>
+				<item label='malheur'><action name='Execute'><command>urxvt -geometry 100x30 -title 'malheur' -e sh -c 'malheur  ; zsh'</command></action></item>
+				<item label='maltego'><action name='Execute'><command>urxvt -geometry 100x30 -title 'maltego' -e sh -c 'maltego  ; zsh'</command></action></item>
+				<item label='memdump'><action name='Execute'><command>urxvt -geometry 100x30 -title 'memdump' -e sh -c 'memdump  ; zsh'</command></action></item>
+				<item label='memfetch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'memfetch' -e sh -c 'memfetch  ; zsh'</command></action></item>
+				<item label='ms-sys'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ms-sys' -e sh -c 'ms-sys  ; zsh'</command></action></item>
+				<item label='openstego'><action name='Execute'><command>urxvt -geometry 100x30 -title 'openstego' -e sh -c 'openstego  ; zsh'</command></action></item>
+				<item label='pasco'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pasco' -e sh -c 'pasco  ; zsh'</command></action></item>
+				<item label='pcapfex'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapfex' -e sh -c 'pcapfex  ; zsh'</command></action></item>
+				<item label='pcapfix'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapfix' -e sh -c 'pcapfix  ; zsh'</command></action></item>
+				<item label='pdf-parser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pdf-parser' -e sh -c 'pdf-parser  ; zsh'</command></action></item>
+				<item label='pdfbook-analyzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pdfbook-analyzer' -e sh -c 'pdfbook-analyzer  ; zsh'</command></action></item>
+				<item label='pdfid'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pdfid' -e sh -c 'pdfid  ; zsh'</command></action></item>
+				<item label='peepdf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'peepdf' -e sh -c 'peepdf  ; zsh'</command></action></item>
+				<item label='pev'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pev' -e sh -c 'pev  ; zsh'</command></action></item>
+				<item label='recoverjpeg'><action name='Execute'><command>urxvt -geometry 100x30 -title 'recoverjpeg' -e sh -c 'recoverjpeg  ; zsh'</command></action></item>
+				<item label='reglookup'><action name='Execute'><command>urxvt -geometry 100x30 -title 'reglookup' -e sh -c 'reglookup  ; zsh'</command></action></item>
+				<item label='rifiuti2'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rifiuti2' -e sh -c 'rifiuti2  ; zsh'</command></action></item>
+				<item label='safecopy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'safecopy' -e sh -c 'safecopy  ; zsh'</command></action></item>
+				<item label='scalpel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scalpel' -e sh -c 'scalpel  ; zsh'</command></action></item>
+				<item label='scrounge-ntfs'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scrounge-ntfs' -e sh -c 'scrounge-ntfs  ; zsh'</command></action></item>
+				<item label='secure-delete'><action name='Execute'><command>urxvt -geometry 100x30 -title 'secure-delete' -e sh -c 'secure-delete  ; zsh'</command></action></item>
+				<item label='stegsolve'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stegsolve' -e sh -c 'stegsolve  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-networking' label='Networking'>
+				<item label='aiengine'><action name='Execute'><command>urxvt -geometry 100x30 -title 'aiengine' -e sh -c 'aiengine  ; zsh'</command></action></item>
+				<item label='airgeddon-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'airgeddon-git' -e sh -c 'airgeddon-git  ; zsh'</command></action></item>
+				<item label='argus'><action name='Execute'><command>urxvt -geometry 100x30 -title 'argus' -e sh -c 'argus  ; zsh'</command></action></item>
+				<item label='bro'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bro' -e sh -c 'bro  ; zsh'</command></action></item>
+				<item label='chisel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chisel' -e sh -c 'chisel  ; zsh'</command></action></item>
+				<item label='cjdns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cjdns-git' -e sh -c 'cjdns-git  ; zsh'</command></action></item>
+				<item label='cjdnsify-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cjdnsify-git' -e sh -c 'cjdnsify-git  ; zsh'</command></action></item>
+				<item label='dhcpig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dhcpig-git' -e sh -c 'dhcpig-git  ; zsh'</command></action></item>
+				<item label='dinouml'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dinouml' -e sh -c 'dinouml  ; zsh'</command></action></item>
+				<item label='evil-winrm'><action name='Execute'><command>urxvt -geometry 100x30 -title 'evil-winrm' -e sh -c 'evil-winrm  ; zsh'</command></action></item>
+				<item label='exabgp'><action name='Execute'><command>urxvt -geometry 100x30 -title 'exabgp' -e sh -c 'exabgp  ; zsh'</command></action></item>
+				<item label='goldeneye-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'goldeneye-git' -e sh -c 'goldeneye-git  ; zsh'</command></action></item>
+				<item label='hostapd-wpe'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hostapd-wpe' -e sh -c 'hostapd-wpe  ; zsh'</command></action></item>
+				<item label='hyenae'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hyenae' -e sh -c 'hyenae  ; zsh'</command></action></item>
+				<item label='ip2clue'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ip2clue' -e sh -c 'ip2clue  ; zsh'</command></action></item>
+				<item label='ipaudit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ipaudit' -e sh -c 'ipaudit  ; zsh'</command></action></item>
+				<item label='ipdecap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ipdecap' -e sh -c 'ipdecap  ; zsh'</command></action></item>
+				<item label='jnetmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jnetmap' -e sh -c 'jnetmap  ; zsh'</command></action></item>
+				<item label='lanmap2-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lanmap2-git' -e sh -c 'lanmap2-git  ; zsh'</command></action></item>
+				<item label='massdns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'massdns-git' -e sh -c 'massdns-git  ; zsh'</command></action></item>
+				<item label='middler'><action name='Execute'><command>urxvt -geometry 100x30 -title 'middler' -e sh -c 'middler  ; zsh'</command></action></item>
+				<item label='mylg'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mylg' -e sh -c 'mylg  ; zsh'</command></action></item>
+				<item label='nbtool-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nbtool-git' -e sh -c 'nbtool-git  ; zsh'</command></action></item>
+				<item label='netmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'netmap' -e sh -c 'netmap  ; zsh'</command></action></item>
+				<item label='nfdump'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nfdump' -e sh -c 'nfdump  ; zsh'</command></action></item>
+				<item label='nield'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nield' -e sh -c 'nield  ; zsh'</command></action></item>
+				<item label='nightfall'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nightfall' -e sh -c 'nightfall  ; zsh'</command></action></item>
+				<item label='nkiller2'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nkiller2' -e sh -c 'nkiller2  ; zsh'</command></action></item>
+				<item label='nsoq'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nsoq' -e sh -c 'nsoq  ; zsh'</command></action></item>
+				<item label='osueta-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'osueta-git' -e sh -c 'osueta-git  ; zsh'</command></action></item>
+				<item label='packetsender'><action name='Execute'><command>urxvt -geometry 100x30 -title 'packetsender' -e sh -c 'packetsender  ; zsh'</command></action></item>
+				<item label='packit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'packit' -e sh -c 'packit  ; zsh'</command></action></item>
+				<item label='perl-tftp'><action name='Execute'><command>urxvt -geometry 100x30 -title 'perl-tftp' -e sh -c 'perl-tftp  ; zsh'</command></action></item>
+				<item label='pkt2flow'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pkt2flow' -e sh -c 'pkt2flow  ; zsh'</command></action></item>
+				<item label='prometheus-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'prometheus-git' -e sh -c 'prometheus-git  ; zsh'</command></action></item>
+				<item label='pwnat-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pwnat-git' -e sh -c 'pwnat-git  ; zsh'</command></action></item>
+				<item label='pyminifakedns'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pyminifakedns' -e sh -c 'pyminifakedns  ; zsh'</command></action></item>
+				<item label='python2-idstools'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python2-idstools' -e sh -c 'python2-idstools  ; zsh'</command></action></item>
+				<item label='pytinydns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pytinydns-git' -e sh -c 'pytinydns-git  ; zsh'</command></action></item>
+				<item label='responder'><action name='Execute'><command>urxvt -geometry 100x30 -title 'responder' -e sh -c 'responder  ; zsh'</command></action></item>
+				<item label='salsapipe-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'salsapipe-git' -e sh -c 'salsapipe-git  ; zsh'</command></action></item>
+				<item label='samhain'><action name='Execute'><command>urxvt -geometry 100x30 -title 'samhain' -e sh -c 'samhain  ; zsh'</command></action></item>
+				<item label='sbd'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sbd' -e sh -c 'sbd  ; zsh'</command></action></item>
+				<item label='sessionlist'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sessionlist' -e sh -c 'sessionlist  ; zsh'</command></action></item>
+				<item label='silk'><action name='Execute'><command>urxvt -geometry 100x30 -title 'silk' -e sh -c 'silk  ; zsh'</command></action></item>
+				<item label='sniffles'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sniffles' -e sh -c 'sniffles  ; zsh'</command></action></item>
+				<item label='snmpcheck'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snmpcheck' -e sh -c 'snmpcheck  ; zsh'</command></action></item>
+				<item label='snort'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snort' -e sh -c 'snort  ; zsh'</command></action></item>
+				<item label='spiped'><action name='Execute'><command>urxvt -geometry 100x30 -title 'spiped' -e sh -c 'spiped  ; zsh'</command></action></item>
+				<item label='sps'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sps' -e sh -c 'sps  ; zsh'</command></action></item>
+				<item label='t50'><action name='Execute'><command>urxvt -geometry 100x30 -title 't50' -e sh -c 't50  ; zsh'</command></action></item>
+				<item label='tcptraceroute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tcptraceroute' -e sh -c 'tcptraceroute  ; zsh'</command></action></item>
+				<item label='udptunnel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'udptunnel' -e sh -c 'udptunnel  ; zsh'</command></action></item>
+				<item label='wol-e'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wol-e' -e sh -c 'wol-e  ; zsh'</command></action></item>
+				<item label='yersinia'><action name='Execute'><command>urxvt -geometry 100x30 -title 'yersinia' -e sh -c 'yersinia  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-wireless' label='Wireless'>
+				<item label='airoscript-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'airoscript-git' -e sh -c 'airoscript-git  ; zsh'</command></action></item>
+				<item label='batman-alfred'><action name='Execute'><command>urxvt -geometry 100x30 -title 'batman-alfred' -e sh -c 'batman-alfred  ; zsh'</command></action></item>
+				<item label='eapmd5pass'><action name='Execute'><command>urxvt -geometry 100x30 -title 'eapmd5pass' -e sh -c 'eapmd5pass  ; zsh'</command></action></item>
+				<item label='fern-wifi-cracker-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fern-wifi-cracker-git' -e sh -c 'fern-wifi-cracker-git  ; zsh'</command></action></item>
+				<item label='fuzzap-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fuzzap-git' -e sh -c 'fuzzap-git  ; zsh'</command></action></item>
+				<item label='g72x'><action name='Execute'><command>urxvt -geometry 100x30 -title 'g72x' -e sh -c 'g72x  ; zsh'</command></action></item>
+				<item label='hostapd-wpe'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hostapd-wpe' -e sh -c 'hostapd-wpe  ; zsh'</command></action></item>
+				<item label='kismon'><action name='Execute'><command>urxvt -geometry 100x30 -title 'kismon' -e sh -c 'kismon  ; zsh'</command></action></item>
+				<item label='mdk4'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mdk4' -e sh -c 'mdk4  ; zsh'</command></action></item>
+				<item label='mfcuk'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mfcuk' -e sh -c 'mfcuk  ; zsh'</command></action></item>
+				<item label='netdiscover'><action name='Execute'><command>urxvt -geometry 100x30 -title 'netdiscover' -e sh -c 'netdiscover  ; zsh'</command></action></item>
+				<item label='rfidiot-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rfidiot-git' -e sh -c 'rfidiot-git  ; zsh'</command></action></item>
+				<item label='rfidtool'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rfidtool' -e sh -c 'rfidtool  ; zsh'</command></action></item>
+				<item label='spectools'><action name='Execute'><command>urxvt -geometry 100x30 -title 'spectools' -e sh -c 'spectools  ; zsh'</command></action></item>
+				<item label='ufo-wardriving'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ufo-wardriving' -e sh -c 'ufo-wardriving  ; zsh'</command></action></item>
+				<item label='wepbuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wepbuster' -e sh -c 'wepbuster  ; zsh'</command></action></item>
+				<item label='wifi-honey'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wifi-honey' -e sh -c 'wifi-honey  ; zsh'</command></action></item>
+				<item label='wifijammer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wifijammer-git' -e sh -c 'wifijammer-git  ; zsh'</command></action></item>
+				<item label='wifiphisher-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wifiphisher-git' -e sh -c 'wifiphisher-git  ; zsh'</command></action></item>
+				<item label='wifitap-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wifitap-git' -e sh -c 'wifitap-git  ; zsh'</command></action></item>
+				<item label='wlan2eth'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wlan2eth' -e sh -c 'wlan2eth  ; zsh'</command></action></item>
+				<item label='zizzania'><action name='Execute'><command>urxvt -geometry 100x30 -title 'zizzania' -e sh -c 'zizzania  ; zsh'</command></action></item>
+				<item label='zulu'><action name='Execute'><command>urxvt -geometry 100x30 -title 'zulu' -e sh -c 'zulu  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-recon' label='Recon'>
+				<item label='allthevhosts'><action name='Execute'><command>urxvt -geometry 100x30 -title 'allthevhosts' -e sh -c 'allthevhosts  ; zsh'</command></action></item>
+				<item label='asp-audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'asp-audit' -e sh -c 'asp-audit  ; zsh'</command></action></item>
+				<item label='bbqsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bbqsql-git' -e sh -c 'bbqsql-git  ; zsh'</command></action></item>
+				<item label='brutexss-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'brutexss-git' -e sh -c 'brutexss-git  ; zsh'</command></action></item>
+				<item label='bsqlbf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bsqlbf' -e sh -c 'bsqlbf  ; zsh'</command></action></item>
+				<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+				<item label='cangibrina-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cangibrina-git' -e sh -c 'cangibrina-git  ; zsh'</command></action></item>
+				<item label='cms-explorer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cms-explorer' -e sh -c 'cms-explorer  ; zsh'</command></action></item>
+				<item label='commix-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'commix-git' -e sh -c 'commix-git  ; zsh'</command></action></item>
+				<item label='cryptonark'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cryptonark' -e sh -c 'cryptonark  ; zsh'</command></action></item>
+				<item label='csrftester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'csrftester' -e sh -c 'csrftester  ; zsh'</command></action></item>
+				<item label='darkjumper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'darkjumper' -e sh -c 'darkjumper  ; zsh'</command></action></item>
+				<item label='dff-scanner'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dff-scanner' -e sh -c 'dff-scanner  ; zsh'</command></action></item>
+				<item label='dirbuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirbuster' -e sh -c 'dirbuster  ; zsh'</command></action></item>
+				<item label='dirsearch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirsearch' -e sh -c 'dirsearch  ; zsh'</command></action></item>
+				<item label='easyfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'easyfuzzer' -e sh -c 'easyfuzzer  ; zsh'</command></action></item>
+				<item label='fbht-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fbht-git' -e sh -c 'fbht-git  ; zsh'</command></action></item>
+				<item label='gobuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gobuster' -e sh -c 'gobuster  ; zsh'</command></action></item>
+				<item label='gwt-toolset-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gwt-toolset-git' -e sh -c 'gwt-toolset-git  ; zsh'</command></action></item>
+				<item label='joomscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'joomscan' -e sh -c 'joomscan  ; zsh'</command></action></item>
+				<item label='laudanum'><action name='Execute'><command>urxvt -geometry 100x30 -title 'laudanum' -e sh -c 'laudanum  ; zsh'</command></action></item>
+				<item label='liffy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'liffy-git' -e sh -c 'liffy-git  ; zsh'</command></action></item>
+				<item label='od1n-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'od1n-git' -e sh -c 'od1n-git  ; zsh'</command></action></item>
+				<item label='paros'><action name='Execute'><command>urxvt -geometry 100x30 -title 'paros' -e sh -c 'paros  ; zsh'</command></action></item>
+				<item label='pblind'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pblind' -e sh -c 'pblind  ; zsh'</command></action></item>
+				<item label='plecost'><action name='Execute'><command>urxvt -geometry 100x30 -title 'plecost' -e sh -c 'plecost  ; zsh'</command></action></item>
+				<item label='powerupsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powerupsql-git' -e sh -c 'powerupsql-git  ; zsh'</command></action></item>
+				<item label='see-surf-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'see-surf-git' -e sh -c 'see-surf-git  ; zsh'</command></action></item>
+				<item label='sqlbrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlbrute' -e sh -c 'sqlbrute  ; zsh'</command></action></item>
+				<item label='sqlninja'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlninja' -e sh -c 'sqlninja  ; zsh'</command></action></item>
+				<item label='uatester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'uatester' -e sh -c 'uatester  ; zsh'</command></action></item>
+				<item label='urlcrazy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'urlcrazy' -e sh -c 'urlcrazy  ; zsh'</command></action></item>
+				<item label='vega'><action name='Execute'><command>urxvt -geometry 100x30 -title 'vega' -e sh -c 'vega  ; zsh'</command></action></item>
+				<item label='wapiti'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wapiti' -e sh -c 'wapiti  ; zsh'</command></action></item>
+				<item label='webacoo'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webacoo' -e sh -c 'webacoo  ; zsh'</command></action></item>
+				<item label='webrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webrute' -e sh -c 'webrute  ; zsh'</command></action></item>
+				<item label='weevely'><action name='Execute'><command>urxvt -geometry 100x30 -title 'weevely' -e sh -c 'weevely  ; zsh'</command></action></item>
+				<item label='wfuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wfuzz' -e sh -c 'wfuzz  ; zsh'</command></action></item>
+				<item label='whatweb-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'whatweb-git' -e sh -c 'whatweb-git  ; zsh'</command></action></item>
+				<item label='wig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wig-git' -e sh -c 'wig-git  ; zsh'</command></action></item>
+				<item label='wmat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wmat' -e sh -c 'wmat  ; zsh'</command></action></item>
+				<item label='wsfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wsfuzzer' -e sh -c 'wsfuzzer  ; zsh'</command></action></item>
+				<item label='xsser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsser' -e sh -c 'xsser  ; zsh'</command></action></item>
+				<item label='xssf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xssf' -e sh -c 'xssf  ; zsh'</command></action></item>
+				<item label='xsss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsss' -e sh -c 'xsss  ; zsh'</command></action></item>
+				<item label='xssscan-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xssscan-git' -e sh -c 'xssscan-git  ; zsh'</command></action></item>
+				<item label='xsssniper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsssniper' -e sh -c 'xsssniper  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-webapps' label='Web Apps'>
+				<item label='allthevhosts'><action name='Execute'><command>urxvt -geometry 100x30 -title 'allthevhosts' -e sh -c 'allthevhosts  ; zsh'</command></action></item>
+				<item label='asp-audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'asp-audit' -e sh -c 'asp-audit  ; zsh'</command></action></item>
+				<item label='bbqsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bbqsql-git' -e sh -c 'bbqsql-git  ; zsh'</command></action></item>
+				<item label='brutexss-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'brutexss-git' -e sh -c 'brutexss-git  ; zsh'</command></action></item>
+				<item label='bsqlbf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bsqlbf' -e sh -c 'bsqlbf  ; zsh'</command></action></item>
+				<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+				<item label='cangibrina-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cangibrina-git' -e sh -c 'cangibrina-git  ; zsh'</command></action></item>
+				<item label='cms-explorer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cms-explorer' -e sh -c 'cms-explorer  ; zsh'</command></action></item>
+				<item label='commix-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'commix-git' -e sh -c 'commix-git  ; zsh'</command></action></item>
+				<item label='cryptonark'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cryptonark' -e sh -c 'cryptonark  ; zsh'</command></action></item>
+				<item label='csrftester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'csrftester' -e sh -c 'csrftester  ; zsh'</command></action></item>
+				<item label='darkjumper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'darkjumper' -e sh -c 'darkjumper  ; zsh'</command></action></item>
+				<item label='dff-scanner'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dff-scanner' -e sh -c 'dff-scanner  ; zsh'</command></action></item>
+				<item label='dirbuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirbuster' -e sh -c 'dirbuster  ; zsh'</command></action></item>
+				<item label='dirsearch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirsearch' -e sh -c 'dirsearch  ; zsh'</command></action></item>
+				<item label='easyfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'easyfuzzer' -e sh -c 'easyfuzzer  ; zsh'</command></action></item>
+				<item label='fbht-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fbht-git' -e sh -c 'fbht-git  ; zsh'</command></action></item>
+				<item label='gobuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gobuster' -e sh -c 'gobuster  ; zsh'</command></action></item>
+				<item label='gwt-toolset-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gwt-toolset-git' -e sh -c 'gwt-toolset-git  ; zsh'</command></action></item>
+				<item label='joomscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'joomscan' -e sh -c 'joomscan  ; zsh'</command></action></item>
+				<item label='laudanum'><action name='Execute'><command>urxvt -geometry 100x30 -title 'laudanum' -e sh -c 'laudanum  ; zsh'</command></action></item>
+				<item label='liffy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'liffy-git' -e sh -c 'liffy-git  ; zsh'</command></action></item>
+				<item label='od1n-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'od1n-git' -e sh -c 'od1n-git  ; zsh'</command></action></item>
+				<item label='paros'><action name='Execute'><command>urxvt -geometry 100x30 -title 'paros' -e sh -c 'paros  ; zsh'</command></action></item>
+				<item label='pblind'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pblind' -e sh -c 'pblind  ; zsh'</command></action></item>
+				<item label='plecost'><action name='Execute'><command>urxvt -geometry 100x30 -title 'plecost' -e sh -c 'plecost  ; zsh'</command></action></item>
+				<item label='powerupsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powerupsql-git' -e sh -c 'powerupsql-git  ; zsh'</command></action></item>
+				<item label='see-surf-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'see-surf-git' -e sh -c 'see-surf-git  ; zsh'</command></action></item>
+				<item label='sqlbrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlbrute' -e sh -c 'sqlbrute  ; zsh'</command></action></item>
+				<item label='sqlninja'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlninja' -e sh -c 'sqlninja  ; zsh'</command></action></item>
+				<item label='uatester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'uatester' -e sh -c 'uatester  ; zsh'</command></action></item>
+				<item label='urlcrazy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'urlcrazy' -e sh -c 'urlcrazy  ; zsh'</command></action></item>
+				<item label='vega'><action name='Execute'><command>urxvt -geometry 100x30 -title 'vega' -e sh -c 'vega  ; zsh'</command></action></item>
+				<item label='wapiti'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wapiti' -e sh -c 'wapiti  ; zsh'</command></action></item>
+				<item label='webacoo'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webacoo' -e sh -c 'webacoo  ; zsh'</command></action></item>
+				<item label='webrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webrute' -e sh -c 'webrute  ; zsh'</command></action></item>
+				<item label='weevely'><action name='Execute'><command>urxvt -geometry 100x30 -title 'weevely' -e sh -c 'weevely  ; zsh'</command></action></item>
+				<item label='wfuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wfuzz' -e sh -c 'wfuzz  ; zsh'</command></action></item>
+				<item label='whatweb-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'whatweb-git' -e sh -c 'whatweb-git  ; zsh'</command></action></item>
+				<item label='wig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wig-git' -e sh -c 'wig-git  ; zsh'</command></action></item>
+				<item label='wmat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wmat' -e sh -c 'wmat  ; zsh'</command></action></item>
+				<item label='wsfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wsfuzzer' -e sh -c 'wsfuzzer  ; zsh'</command></action></item>
+				<item label='xsser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsser' -e sh -c 'xsser  ; zsh'</command></action></item>
+				<item label='xssf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xssf' -e sh -c 'xssf  ; zsh'</command></action></item>
+				<item label='xsss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsss' -e sh -c 'xsss  ; zsh'</command></action></item>
+				<item label='xssscan-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xssscan-git' -e sh -c 'xssscan-git  ; zsh'</command></action></item>
+				<item label='xsssniper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsssniper' -e sh -c 'xsssniper  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-desktop' label='Desktop'>
+				<item label='archstrike-i3-config'><action name='Execute'><command>urxvt -geometry 100x30 -title 'archstrike-i3-config' -e sh -c 'archstrike-i3-config  ; zsh'</command></action></item>
+				<item label='archstrike-openbox-config'><action name='Execute'><command>urxvt -geometry 100x30 -title 'archstrike-openbox-config' -e sh -c 'archstrike-openbox-config  ; zsh'</command></action></item>
+				<item label='archstrike-wallpapers'><action name='Execute'><command>urxvt -geometry 100x30 -title 'archstrike-wallpapers' -e sh -c 'archstrike-wallpapers  ; zsh'</command></action></item>
+				<item label='archstrike-xfce-config'><action name='Execute'><command>urxvt -geometry 100x30 -title 'archstrike-xfce-config' -e sh -c 'archstrike-xfce-config  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-meta' label='Meta'>
+				<item label='archstrike-meta-upstream-all'><action name='Execute'><command>urxvt -geometry 100x30 -title 'archstrike-meta-upstream-all' -e sh -c 'archstrike-meta-upstream-all  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-defense' label='Defense'>
+				<item label='argus'><action name='Execute'><command>urxvt -geometry 100x30 -title 'argus' -e sh -c 'argus  ; zsh'</command></action></item>
+				<item label='arpalert'><action name='Execute'><command>urxvt -geometry 100x30 -title 'arpalert' -e sh -c 'arpalert  ; zsh'</command></action></item>
+				<item label='artillery-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'artillery-git' -e sh -c 'artillery-git  ; zsh'</command></action></item>
+				<item label='artlas-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'artlas-git' -e sh -c 'artlas-git  ; zsh'</command></action></item>
+				<item label='chkrootkit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chkrootkit' -e sh -c 'chkrootkit  ; zsh'</command></action></item>
+				<item label='dbpwaudit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dbpwaudit' -e sh -c 'dbpwaudit  ; zsh'</command></action></item>
+				<item label='detectsniffer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'detectsniffer-git' -e sh -c 'detectsniffer-git  ; zsh'</command></action></item>
+				<item label='firesql'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firesql' -e sh -c 'firesql  ; zsh'</command></action></item>
+				<item label='inetsim'><action name='Execute'><command>urxvt -geometry 100x30 -title 'inetsim' -e sh -c 'inetsim  ; zsh'</command></action></item>
+				<item label='kippo'><action name='Execute'><command>urxvt -geometry 100x30 -title 'kippo' -e sh -c 'kippo  ; zsh'</command></action></item>
+				<item label='quicksand_lite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'quicksand_lite' -e sh -c 'quicksand_lite  ; zsh'</command></action></item>
+				<item label='sec'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sec' -e sh -c 'sec  ; zsh'</command></action></item>
+				<item label='secure-delete'><action name='Execute'><command>urxvt -geometry 100x30 -title 'secure-delete' -e sh -c 'secure-delete  ; zsh'</command></action></item>
+				<item label='usbkill-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'usbkill-git' -e sh -c 'usbkill-git  ; zsh'</command></action></item>
+				<item label='wordpot-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wordpot-git' -e sh -c 'wordpot-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-exploit' label='Exploit'>
+				<item label='armitage'><action name='Execute'><command>urxvt -geometry 100x30 -title 'armitage' -e sh -c 'armitage  ; zsh'</command></action></item>
+				<item label='arpoison'><action name='Execute'><command>urxvt -geometry 100x30 -title 'arpoison' -e sh -c 'arpoison  ; zsh'</command></action></item>
+				<item label='autosploit-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'autosploit-git' -e sh -c 'autosploit-git  ; zsh'</command></action></item>
+				<item label='bbqsql-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bbqsql-git' -e sh -c 'bbqsql-git  ; zsh'</command></action></item>
+				<item label='bed'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bed' -e sh -c 'bed  ; zsh'</command></action></item>
+				<item label='beef-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'beef-git' -e sh -c 'beef-git  ; zsh'</command></action></item>
+				<item label='bfbtester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bfbtester' -e sh -c 'bfbtester  ; zsh'</command></action></item>
+				<item label='brutexss-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'brutexss-git' -e sh -c 'brutexss-git  ; zsh'</command></action></item>
+				<item label='cisco-torch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cisco-torch' -e sh -c 'cisco-torch  ; zsh'</command></action></item>
+				<item label='crackmapexec'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crackmapexec' -e sh -c 'crackmapexec  ; zsh'</command></action></item>
+				<item label='dotdotpwn'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dotdotpwn' -e sh -c 'dotdotpwn  ; zsh'</command></action></item>
+				<item label='empire'><action name='Execute'><command>urxvt -geometry 100x30 -title 'empire' -e sh -c 'empire  ; zsh'</command></action></item>
+				<item label='firstexecution-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firstexecution-git' -e sh -c 'firstexecution-git  ; zsh'</command></action></item>
+				<item label='gcat-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gcat-git' -e sh -c 'gcat-git  ; zsh'</command></action></item>
+				<item label='gef-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gef-git' -e sh -c 'gef-git  ; zsh'</command></action></item>
+				<item label='hcraft'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hcraft' -e sh -c 'hcraft  ; zsh'</command></action></item>
+				<item label='htshells-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'htshells-git' -e sh -c 'htshells-git  ; zsh'</command></action></item>
+				<item label='jboss-autopwn-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jboss-autopwn-git' -e sh -c 'jboss-autopwn-git  ; zsh'</command></action></item>
+				<item label='jexboss-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jexboss-git' -e sh -c 'jexboss-git  ; zsh'</command></action></item>
+				<item label='l0l-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'l0l-git' -e sh -c 'l0l-git  ; zsh'</command></action></item>
+				<item label='lisa.py-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lisa.py-git' -e sh -c 'lisa.py-git  ; zsh'</command></action></item>
+				<item label='magic-unicorn'><action name='Execute'><command>urxvt -geometry 100x30 -title 'magic-unicorn' -e sh -c 'magic-unicorn  ; zsh'</command></action></item>
+				<item label='mdk4'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mdk4' -e sh -c 'mdk4  ; zsh'</command></action></item>
+				<item label='meltdown-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'meltdown-git' -e sh -c 'meltdown-git  ; zsh'</command></action></item>
+				<item label='metasploitavevasion-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploitavevasion-git' -e sh -c 'metasploitavevasion-git  ; zsh'</command></action></item>
+				<item label='mimikatz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mimikatz' -e sh -c 'mimikatz  ; zsh'</command></action></item>
+				<item label='mimikittenz-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mimikittenz-git' -e sh -c 'mimikittenz-git  ; zsh'</command></action></item>
+				<item label='mitmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mitmap' -e sh -c 'mitmap  ; zsh'</command></action></item>
+				<item label='owasp-zsc-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'owasp-zsc-git' -e sh -c 'owasp-zsc-git  ; zsh'</command></action></item>
+				<item label='pblind'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pblind' -e sh -c 'pblind  ; zsh'</command></action></item>
+				<item label='pocsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pocsuite' -e sh -c 'pocsuite  ; zsh'</command></action></item>
+				<item label='pompem-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pompem-git' -e sh -c 'pompem-git  ; zsh'</command></action></item>
+				<item label='powershell-payload-excel-delivery-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powershell-payload-excel-delivery-git' -e sh -c 'powershell-payload-excel-delivery-git  ; zsh'</command></action></item>
+				<item label='powersploit-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powersploit-git' -e sh -c 'powersploit-git  ; zsh'</command></action></item>
+				<item label='ps1encode-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ps1encode-git' -e sh -c 'ps1encode-git  ; zsh'</command></action></item>
+				<item label='pwntools'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pwntools' -e sh -c 'pwntools  ; zsh'</command></action></item>
+				<item label='rfcat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rfcat' -e sh -c 'rfcat  ; zsh'</command></action></item>
+				<item label='ropeme'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ropeme' -e sh -c 'ropeme  ; zsh'</command></action></item>
+				<item label='rspet-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rspet-git' -e sh -c 'rspet-git  ; zsh'</command></action></item>
+				<item label='set-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'set-git' -e sh -c 'set-git  ; zsh'</command></action></item>
+				<item label='shellnoob'><action name='Execute'><command>urxvt -geometry 100x30 -title 'shellnoob' -e sh -c 'shellnoob  ; zsh'</command></action></item>
+				<item label='shocker-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'shocker-git' -e sh -c 'shocker-git  ; zsh'</command></action></item>
+				<item label='simple-ducky-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'simple-ducky-git' -e sh -c 'simple-ducky-git  ; zsh'</command></action></item>
+				<item label='sqlninja'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlninja' -e sh -c 'sqlninja  ; zsh'</command></action></item>
+				<item label='stackflow-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stackflow-git' -e sh -c 'stackflow-git  ; zsh'</command></action></item>
+				<item label='tomcatwardeployer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tomcatwardeployer-git' -e sh -c 'tomcatwardeployer-git  ; zsh'</command></action></item>
+				<item label='windows-exploit-suggester-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'windows-exploit-suggester-git' -e sh -c 'windows-exploit-suggester-git  ; zsh'</command></action></item>
+				<item label='xcat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xcat' -e sh -c 'xcat  ; zsh'</command></action></item>
+				<item label='xsser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsser' -e sh -c 'xsser  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-spoof' label='Spoof'>
+				<item label='arpoison'><action name='Execute'><command>urxvt -geometry 100x30 -title 'arpoison' -e sh -c 'arpoison  ; zsh'</command></action></item>
+				<item label='fakedns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fakedns-git' -e sh -c 'fakedns-git  ; zsh'</command></action></item>
+				<item label='inundator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'inundator' -e sh -c 'inundator  ; zsh'</command></action></item>
+				<item label='lans-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lans-git' -e sh -c 'lans-git  ; zsh'</command></action></item>
+				<item label='lsrtunnel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lsrtunnel' -e sh -c 'lsrtunnel  ; zsh'</command></action></item>
+				<item label='multimac'><action name='Execute'><command>urxvt -geometry 100x30 -title 'multimac' -e sh -c 'multimac  ; zsh'</command></action></item>
+				<item label='nbnspoof'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nbnspoof' -e sh -c 'nbnspoof  ; zsh'</command></action></item>
+				<item label='netcommander-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'netcommander-git' -e sh -c 'netcommander-git  ; zsh'</command></action></item>
+				<item label='pyminifakedns'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pyminifakedns' -e sh -c 'pyminifakedns  ; zsh'</command></action></item>
+				<item label='simple-email-spoofer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'simple-email-spoofer-git' -e sh -c 'simple-email-spoofer-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-analysis' label='Analysis'>
+				<item label='artlas-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'artlas-git' -e sh -c 'artlas-git  ; zsh'</command></action></item>
+				<item label='bindead-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bindead-git' -e sh -c 'bindead-git  ; zsh'</command></action></item>
+				<item label='binwally-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'binwally-git' -e sh -c 'binwally-git  ; zsh'</command></action></item>
+				<item label='box-js'><action name='Execute'><command>urxvt -geometry 100x30 -title 'box-js' -e sh -c 'box-js  ; zsh'</command></action></item>
+				<item label='captipper-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'captipper-git' -e sh -c 'captipper-git  ; zsh'</command></action></item>
+				<item label='elidecode-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'elidecode-git' -e sh -c 'elidecode-git  ; zsh'</command></action></item>
+				<item label='forager'><action name='Execute'><command>urxvt -geometry 100x30 -title 'forager' -e sh -c 'forager  ; zsh'</command></action></item>
+				<item label='fpdns'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fpdns' -e sh -c 'fpdns  ; zsh'</command></action></item>
+				<item label='goatrider-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'goatrider-git' -e sh -c 'goatrider-git  ; zsh'</command></action></item>
+				<item label='hodor'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hodor' -e sh -c 'hodor  ; zsh'</command></action></item>
+				<item label='openstego'><action name='Execute'><command>urxvt -geometry 100x30 -title 'openstego' -e sh -c 'openstego  ; zsh'</command></action></item>
+				<item label='pcapfex'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapfex' -e sh -c 'pcapfex  ; zsh'</command></action></item>
+				<item label='pcapfix'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcapfix' -e sh -c 'pcapfix  ; zsh'</command></action></item>
+				<item label='pipal-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pipal-git' -e sh -c 'pipal-git  ; zsh'</command></action></item>
+				<item label='plasma-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'plasma-git' -e sh -c 'plasma-git  ; zsh'</command></action></item>
+				<item label='pwatch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pwatch' -e sh -c 'pwatch  ; zsh'</command></action></item>
+				<item label='python2-miasm-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python2-miasm-git' -e sh -c 'python2-miasm-git  ; zsh'</command></action></item>
+				<item label='quicksand_lite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'quicksand_lite' -e sh -c 'quicksand_lite  ; zsh'</command></action></item>
+				<item label='rr-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rr-git' -e sh -c 'rr-git  ; zsh'</command></action></item>
+				<item label='sagan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sagan' -e sh -c 'sagan  ; zsh'</command></action></item>
+				<item label='ssma-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssma-git' -e sh -c 'ssma-git  ; zsh'</command></action></item>
+				<item label='stegsolve'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stegsolve' -e sh -c 'stegsolve  ; zsh'</command></action></item>
+				<item label='triad-decompiler'><action name='Execute'><command>urxvt -geometry 100x30 -title 'triad-decompiler' -e sh -c 'triad-decompiler  ; zsh'</command></action></item>
+				<item label='xmount'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xmount' -e sh -c 'xmount  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-fingerprinting' label='Fingerprinting'>
+				<item label='asp-audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'asp-audit' -e sh -c 'asp-audit  ; zsh'</command></action></item>
+				<item label='cisco-torch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cisco-torch' -e sh -c 'cisco-torch  ; zsh'</command></action></item>
+				<item label='cms-explorer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cms-explorer' -e sh -c 'cms-explorer  ; zsh'</command></action></item>
+				<item label='complemento'><action name='Execute'><command>urxvt -geometry 100x30 -title 'complemento' -e sh -c 'complemento  ; zsh'</command></action></item>
+				<item label='dnsmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnsmap' -e sh -c 'dnsmap  ; zsh'</command></action></item>
+				<item label='ftpmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ftpmap' -e sh -c 'ftpmap  ; zsh'</command></action></item>
+				<item label='httprint'><action name='Execute'><command>urxvt -geometry 100x30 -title 'httprint' -e sh -c 'httprint  ; zsh'</command></action></item>
+				<item label='plecost'><action name='Execute'><command>urxvt -geometry 100x30 -title 'plecost' -e sh -c 'plecost  ; zsh'</command></action></item>
+				<item label='smtpscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'smtpscan' -e sh -c 'smtpscan  ; zsh'</command></action></item>
+				<item label='xprobe2'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xprobe2' -e sh -c 'xprobe2  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-crypto' label='Crypto'>
+				<item label='auto-xor-decryptographyr-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'auto-xor-decryptographyr-git' -e sh -c 'auto-xor-decryptographyr-git  ; zsh'</command></action></item>
+				<item label='bletchley'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bletchley' -e sh -c 'bletchley  ; zsh'</command></action></item>
+				<item label='ciphertest-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ciphertest-git' -e sh -c 'ciphertest-git  ; zsh'</command></action></item>
+				<item label='cloakify-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cloakify-git' -e sh -c 'cloakify-git  ; zsh'</command></action></item>
+				<item label='codecrypt'><action name='Execute'><command>urxvt -geometry 100x30 -title 'codecrypt' -e sh -c 'codecrypt  ; zsh'</command></action></item>
+				<item label='cryptmount'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cryptmount' -e sh -c 'cryptmount  ; zsh'</command></action></item>
+				<item label='deen'><action name='Execute'><command>urxvt -geometry 100x30 -title 'deen' -e sh -c 'deen  ; zsh'</command></action></item>
+				<item label='hash-identifier'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hash-identifier' -e sh -c 'hash-identifier  ; zsh'</command></action></item>
+				<item label='interlock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'interlock-git' -e sh -c 'interlock-git  ; zsh'</command></action></item>
+				<item label='nassl'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nassl' -e sh -c 'nassl  ; zsh'</command></action></item>
+				<item label='nomorexor-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nomorexor-git' -e sh -c 'nomorexor-git  ; zsh'</command></action></item>
+				<item label='openstego'><action name='Execute'><command>urxvt -geometry 100x30 -title 'openstego' -e sh -c 'openstego  ; zsh'</command></action></item>
+				<item label='outguess'><action name='Execute'><command>urxvt -geometry 100x30 -title 'outguess' -e sh -c 'outguess  ; zsh'</command></action></item>
+				<item label='rr-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rr-git' -e sh -c 'rr-git  ; zsh'</command></action></item>
+				<item label='sbd'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sbd' -e sh -c 'sbd  ; zsh'</command></action></item>
+				<item label='ssss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssss' -e sh -c 'ssss  ; zsh'</command></action></item>
+				<item label='xorsearch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xorsearch' -e sh -c 'xorsearch  ; zsh'</command></action></item>
+				<item label='xorstrings'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xorstrings' -e sh -c 'xorstrings  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-backdoors' label='Backdoors'>
+				<item label='azazel-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'azazel-git' -e sh -c 'azazel-git  ; zsh'</command></action></item>
+				<item label='backdoor-factory-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'backdoor-factory-git' -e sh -c 'backdoor-factory-git  ; zsh'</command></action></item>
+				<item label='cymothoa'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cymothoa' -e sh -c 'cymothoa  ; zsh'</command></action></item>
+				<item label='empire'><action name='Execute'><command>urxvt -geometry 100x30 -title 'empire' -e sh -c 'empire  ; zsh'</command></action></item>
+				<item label='hotpatch-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hotpatch-git' -e sh -c 'hotpatch-git  ; zsh'</command></action></item>
+				<item label='ms-sys'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ms-sys' -e sh -c 'ms-sys  ; zsh'</command></action></item>
+				<item label='webacoo'><action name='Execute'><command>urxvt -geometry 100x30 -title 'webacoo' -e sh -c 'webacoo  ; zsh'</command></action></item>
+				<item label='weevely'><action name='Execute'><command>urxvt -geometry 100x30 -title 'weevely' -e sh -c 'weevely  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-malware' label='Malware'>
+				<item label='backdoorme-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'backdoorme-git' -e sh -c 'backdoorme-git  ; zsh'</command></action></item>
+				<item label='bamfdetect'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bamfdetect' -e sh -c 'bamfdetect  ; zsh'</command></action></item>
+				<item label='bt2-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bt2-git' -e sh -c 'bt2-git  ; zsh'</command></action></item>
+				<item label='damm-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'damm-git' -e sh -c 'damm-git  ; zsh'</command></action></item>
+				<item label='gcat-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gcat-git' -e sh -c 'gcat-git  ; zsh'</command></action></item>
+				<item label='malheur'><action name='Execute'><command>urxvt -geometry 100x30 -title 'malheur' -e sh -c 'malheur  ; zsh'</command></action></item>
+				<item label='metasploit-payload-creator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploit-payload-creator' -e sh -c 'metasploit-payload-creator  ; zsh'</command></action></item>
+				<item label='origami'><action name='Execute'><command>urxvt -geometry 100x30 -title 'origami' -e sh -c 'origami  ; zsh'</command></action></item>
+				<item label='peepdf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'peepdf' -e sh -c 'peepdf  ; zsh'</command></action></item>
+				<item label='ps1encode-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ps1encode-git' -e sh -c 'ps1encode-git  ; zsh'</command></action></item>
+				<item label='pupy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pupy-git' -e sh -c 'pupy-git  ; zsh'</command></action></item>
+				<item label='pyew-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pyew-git' -e sh -c 'pyew-git  ; zsh'</command></action></item>
+				<item label='python-amoco'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python-amoco' -e sh -c 'python-amoco  ; zsh'</command></action></item>
+				<item label='rspet-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rspet-git' -e sh -c 'rspet-git  ; zsh'</command></action></item>
+				<item label='ssma-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssma-git' -e sh -c 'ssma-git  ; zsh'</command></action></item>
+				<item label='thezoo-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'thezoo-git' -e sh -c 'thezoo-git  ; zsh'</command></action></item>
+				<item label='twittor-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'twittor-git' -e sh -c 'twittor-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-fuzzers' label='Fuzzers'>
+				<item label='backfuzz-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'backfuzz-git' -e sh -c 'backfuzz-git  ; zsh'</command></action></item>
+				<item label='bss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bss' -e sh -c 'bss  ; zsh'</command></action></item>
+				<item label='bt_audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bt_audit' -e sh -c 'bt_audit  ; zsh'</command></action></item>
+				<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+				<item label='dhcpig-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dhcpig-git' -e sh -c 'dhcpig-git  ; zsh'</command></action></item>
+				<item label='doona-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'doona-git' -e sh -c 'doona-git  ; zsh'</command></action></item>
+				<item label='dotdotpwn'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dotdotpwn' -e sh -c 'dotdotpwn  ; zsh'</command></action></item>
+				<item label='easyfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'easyfuzzer' -e sh -c 'easyfuzzer  ; zsh'</command></action></item>
+				<item label='fakenetbios-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fakenetbios-git' -e sh -c 'fakenetbios-git  ; zsh'</command></action></item>
+				<item label='ffuf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ffuf' -e sh -c 'ffuf  ; zsh'</command></action></item>
+				<item label='firewalk'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firewalk' -e sh -c 'firewalk  ; zsh'</command></action></item>
+				<item label='ftester'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ftester' -e sh -c 'ftester  ; zsh'</command></action></item>
+				<item label='fuzzdb-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fuzzdb-git' -e sh -c 'fuzzdb-git  ; zsh'</command></action></item>
+				<item label='fuzzdiff'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fuzzdiff' -e sh -c 'fuzzdiff  ; zsh'</command></action></item>
+				<item label='http-fuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'http-fuzz' -e sh -c 'http-fuzz  ; zsh'</command></action></item>
+				<item label='ikeprober'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ikeprober' -e sh -c 'ikeprober  ; zsh'</command></action></item>
+				<item label='inception-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'inception-git' -e sh -c 'inception-git  ; zsh'</command></action></item>
+				<item label='jbrofuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jbrofuzz' -e sh -c 'jbrofuzz  ; zsh'</command></action></item>
+				<item label='metasploit-framework'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploit-framework' -e sh -c 'metasploit-framework  ; zsh'</command></action></item>
+				<item label='mkbrutus'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mkbrutus' -e sh -c 'mkbrutus  ; zsh'</command></action></item>
+				<item label='od1n-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'od1n-git' -e sh -c 'od1n-git  ; zsh'</command></action></item>
+				<item label='ohrwurm-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ohrwurm-git' -e sh -c 'ohrwurm-git  ; zsh'</command></action></item>
+				<item label='pentbox'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pentbox' -e sh -c 'pentbox  ; zsh'</command></action></item>
+				<item label='powerfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'powerfuzzer' -e sh -c 'powerfuzzer  ; zsh'</command></action></item>
+				<item label='sqlbrute'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlbrute' -e sh -c 'sqlbrute  ; zsh'</command></action></item>
+				<item label='sqlninja'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sqlninja' -e sh -c 'sqlninja  ; zsh'</command></action></item>
+				<item label='termineter'><action name='Execute'><command>urxvt -geometry 100x30 -title 'termineter' -e sh -c 'termineter  ; zsh'</command></action></item>
+				<item label='trinity'><action name='Execute'><command>urxvt -geometry 100x30 -title 'trinity' -e sh -c 'trinity  ; zsh'</command></action></item>
+				<item label='wapiti'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wapiti' -e sh -c 'wapiti  ; zsh'</command></action></item>
+				<item label='wfuzz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wfuzz' -e sh -c 'wfuzz  ; zsh'</command></action></item>
+				<item label='wsfuzzer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'wsfuzzer' -e sh -c 'wsfuzzer  ; zsh'</command></action></item>
+				<item label='xsser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsser' -e sh -c 'xsser  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-source-audit' label='Source Audit'>
+				<item label='binwally-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'binwally-git' -e sh -c 'binwally-git  ; zsh'</command></action></item>
+				<item label='pscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pscan' -e sh -c 'pscan  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-database' label='Database'>
+				<item label='blindsql'><action name='Execute'><command>urxvt -geometry 100x30 -title 'blindsql' -e sh -c 'blindsql  ; zsh'</command></action></item>
+				<item label='getsids'><action name='Execute'><command>urxvt -geometry 100x30 -title 'getsids' -e sh -c 'getsids  ; zsh'</command></action></item>
+				<item label='metacoretex'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metacoretex' -e sh -c 'metacoretex  ; zsh'</command></action></item>
+				<item label='minimysqlator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'minimysqlator' -e sh -c 'minimysqlator  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-bluetooth' label='Bluetooth'>
+				<item label='blueprint'><action name='Execute'><command>urxvt -geometry 100x30 -title 'blueprint' -e sh -c 'blueprint  ; zsh'</command></action></item>
+				<item label='bluesnarfer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bluesnarfer' -e sh -c 'bluesnarfer  ; zsh'</command></action></item>
+				<item label='bss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bss' -e sh -c 'bss  ; zsh'</command></action></item>
+				<item label='bt_audit'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bt_audit' -e sh -c 'bt_audit  ; zsh'</command></action></item>
+				<item label='carwhisperer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'carwhisperer' -e sh -c 'carwhisperer  ; zsh'</command></action></item>
+				<item label='crackle-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crackle-git' -e sh -c 'crackle-git  ; zsh'</command></action></item>
+				<item label='redfang'><action name='Execute'><command>urxvt -geometry 100x30 -title 'redfang' -e sh -c 'redfang  ; zsh'</command></action></item>
+				<item label='spooftooph'><action name='Execute'><command>urxvt -geometry 100x30 -title 'spooftooph' -e sh -c 'spooftooph  ; zsh'</command></action></item>
+				<item label='tbear'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tbear' -e sh -c 'tbear  ; zsh'</command></action></item>
+				<item label='ubertooth-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ubertooth-git' -e sh -c 'ubertooth-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-bruteforce' label='Bruteforce'>
+				<item label='bruteforce-wallet'><action name='Execute'><command>urxvt -geometry 100x30 -title 'bruteforce-wallet' -e sh -c 'bruteforce-wallet  ; zsh'</command></action></item>
+				<item label='creds.py-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'creds.py-git' -e sh -c 'creds.py-git  ; zsh'</command></action></item>
+				<item label='crowbar'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crowbar' -e sh -c 'crowbar  ; zsh'</command></action></item>
+				<item label='ikeforce-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ikeforce-git' -e sh -c 'ikeforce-git  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+				<item label='mybff-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mybff-git' -e sh -c 'mybff-git  ; zsh'</command></action></item>
+				<item label='xsss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsss' -e sh -c 'xsss  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-proxy' label='Proxy'>
+				<item label='burpsuite'><action name='Execute'><command>urxvt -geometry 100x30 -title 'burpsuite' -e sh -c 'burpsuite  ; zsh'</command></action></item>
+				<item label='dnschef'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnschef' -e sh -c 'dnschef  ; zsh'</command></action></item>
+				<item label='fakedns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'fakedns-git' -e sh -c 'fakedns-git  ; zsh'</command></action></item>
+				<item label='hyperfox-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hyperfox-git' -e sh -c 'hyperfox-git  ; zsh'</command></action></item>
+				<item label='net-creds-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'net-creds-git' -e sh -c 'net-creds-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-sniffers' label='Sniffers'>
+				<item label='cdpsnarf'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cdpsnarf' -e sh -c 'cdpsnarf  ; zsh'</command></action></item>
+				<item label='driftnet'><action name='Execute'><command>urxvt -geometry 100x30 -title 'driftnet' -e sh -c 'driftnet  ; zsh'</command></action></item>
+				<item label='hexinject'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hexinject' -e sh -c 'hexinject  ; zsh'</command></action></item>
+				<item label='httpry'><action name='Execute'><command>urxvt -geometry 100x30 -title 'httpry' -e sh -c 'httpry  ; zsh'</command></action></item>
+				<item label='mitmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mitmap' -e sh -c 'mitmap  ; zsh'</command></action></item>
+				<item label='passivedns'><action name='Execute'><command>urxvt -geometry 100x30 -title 'passivedns' -e sh -c 'passivedns  ; zsh'</command></action></item>
+				<item label='pcredz'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pcredz' -e sh -c 'pcredz  ; zsh'</command></action></item>
+				<item label='phoss'><action name='Execute'><command>urxvt -geometry 100x30 -title 'phoss' -e sh -c 'phoss  ; zsh'</command></action></item>
+				<item label='sessionlist'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sessionlist' -e sh -c 'sessionlist  ; zsh'</command></action></item>
+				<item label='ssldump-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ssldump-git' -e sh -c 'ssldump-git  ; zsh'</command></action></item>
+				<item label='tcpick'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tcpick' -e sh -c 'tcpick  ; zsh'</command></action></item>
+				<item label='tuxcut'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tuxcut' -e sh -c 'tuxcut  ; zsh'</command></action></item>
+				<item label='xspy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xspy' -e sh -c 'xspy  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-autonomous' label='Autonomous'>
+				<item label='cewl'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cewl' -e sh -c 'cewl  ; zsh'</command></action></item>
+				<item label='crunch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'crunch' -e sh -c 'crunch  ; zsh'</command></action></item>
+				<item label='gooscan'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gooscan' -e sh -c 'gooscan  ; zsh'</command></action></item>
+				<item label='intersect-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'intersect-git' -e sh -c 'intersect-git  ; zsh'</command></action></item>
+				<item label='mitmap'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mitmap' -e sh -c 'mitmap  ; zsh'</command></action></item>
+				<item label='nfspy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nfspy' -e sh -c 'nfspy  ; zsh'</command></action></item>
+				<item label='panoptic-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'panoptic-git' -e sh -c 'panoptic-git  ; zsh'</command></action></item>
+				<item label='rsmangler'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rsmangler' -e sh -c 'rsmangler  ; zsh'</command></action></item>
+				<item label='samhain'><action name='Execute'><command>urxvt -geometry 100x30 -title 'samhain' -e sh -c 'samhain  ; zsh'</command></action></item>
+				<item label='simple-ducky-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'simple-ducky-git' -e sh -c 'simple-ducky-git  ; zsh'</command></action></item>
+				<item label='snort'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snort' -e sh -c 'snort  ; zsh'</command></action></item>
+				<item label='tiger'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tiger' -e sh -c 'tiger  ; zsh'</command></action></item>
+				<item label='tlssled'><action name='Execute'><command>urxvt -geometry 100x30 -title 'tlssled' -e sh -c 'tlssled  ; zsh'</command></action></item>
+				<item label='unix-privesc-check'><action name='Execute'><command>urxvt -geometry 100x30 -title 'unix-privesc-check' -e sh -c 'unix-privesc-check  ; zsh'</command></action></item>
+				<item label='username-anarchy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'username-anarchy' -e sh -c 'username-anarchy  ; zsh'</command></action></item>
+				<item label='voiphopper'><action name='Execute'><command>urxvt -geometry 100x30 -title 'voiphopper' -e sh -c 'voiphopper  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-decompile' label='Decompile'>
+				<item label='cfr'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cfr' -e sh -c 'cfr  ; zsh'</command></action></item>
+				<item label='elfparser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'elfparser' -e sh -c 'elfparser  ; zsh'</command></action></item>
+				<item label='jd-gui'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jd-gui' -e sh -c 'jd-gui  ; zsh'</command></action></item>
+				<item label='pwndbg-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pwndbg-git' -e sh -c 'pwndbg-git  ; zsh'</command></action></item>
+				<item label='python-uncompyle6'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python-uncompyle6' -e sh -c 'python-uncompyle6  ; zsh'</command></action></item>
+				<item label='python2-miasm-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python2-miasm-git' -e sh -c 'python2-miasm-git  ; zsh'</command></action></item>
+				<item label='triad-decompiler'><action name='Execute'><command>urxvt -geometry 100x30 -title 'triad-decompiler' -e sh -c 'triad-decompiler  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-hardware' label='Hardware'>
+				<item label='chipsec'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chipsec' -e sh -c 'chipsec  ; zsh'</command></action></item>
+				<item label='dex2jar'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dex2jar' -e sh -c 'dex2jar  ; zsh'</command></action></item>
+				<item label='kraken-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'kraken-git' -e sh -c 'kraken-git  ; zsh'</command></action></item>
+				<item label='mfterm'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mfterm' -e sh -c 'mfterm  ; zsh'</command></action></item>
+				<item label='python2-uefi-firmware-parser'><action name='Execute'><command>urxvt -geometry 100x30 -title 'python2-uefi-firmware-parser' -e sh -c 'python2-uefi-firmware-parser  ; zsh'</command></action></item>
+				<item label='rtlamr-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'rtlamr-git' -e sh -c 'rtlamr-git  ; zsh'</command></action></item>
+				<item label='sdrangelove-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sdrangelove-git' -e sh -c 'sdrangelove-git  ; zsh'</command></action></item>
+				<item label='smod'><action name='Execute'><command>urxvt -geometry 100x30 -title 'smod' -e sh -c 'smod  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-tunnel' label='Tunnel'>
+				<item label='chisel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chisel' -e sh -c 'chisel  ; zsh'</command></action></item>
+				<item label='chownat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'chownat' -e sh -c 'chownat  ; zsh'</command></action></item>
+				<item label='firecat'><action name='Execute'><command>urxvt -geometry 100x30 -title 'firecat' -e sh -c 'firecat  ; zsh'</command></action></item>
+				<item label='icmptx'><action name='Execute'><command>urxvt -geometry 100x30 -title 'icmptx' -e sh -c 'icmptx  ; zsh'</command></action></item>
+				<item label='matahari'><action name='Execute'><command>urxvt -geometry 100x30 -title 'matahari' -e sh -c 'matahari  ; zsh'</command></action></item>
+				<item label='pupy-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pupy-git' -e sh -c 'pupy-git  ; zsh'</command></action></item>
+				<item label='regeorg-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'regeorg-git' -e sh -c 'regeorg-git  ; zsh'</command></action></item>
+				<item label='udptunnel'><action name='Execute'><command>urxvt -geometry 100x30 -title 'udptunnel' -e sh -c 'udptunnel  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-social-engineering' label='Social Engineering'>
+				<item label='cr3dov3r-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'cr3dov3r-git' -e sh -c 'cr3dov3r-git  ; zsh'</command></action></item>
+				<item label='gophish'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gophish' -e sh -c 'gophish  ; zsh'</command></action></item>
+				<item label='jigsaw'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jigsaw' -e sh -c 'jigsaw  ; zsh'</command></action></item>
+				<item label='lazagne'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lazagne' -e sh -c 'lazagne  ; zsh'</command></action></item>
+				<item label='set-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'set-git' -e sh -c 'set-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-mitm' label='MITM'>
+				<item label='creak-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'creak-git' -e sh -c 'creak-git  ; zsh'</command></action></item>
+				<item label='mitmer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mitmer-git' -e sh -c 'mitmer-git  ; zsh'</command></action></item>
+				<item label='mosquito-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mosquito-git' -e sh -c 'mosquito-git  ; zsh'</command></action></item>
+				<item label='snarf-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'snarf-git' -e sh -c 'snarf-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-dos' label='DOS'>
+				<item label='davoset'><action name='Execute'><command>urxvt -geometry 100x30 -title 'davoset' -e sh -c 'davoset  ; zsh'</command></action></item>
+				<item label='goldeneye-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'goldeneye-git' -e sh -c 'goldeneye-git  ; zsh'</command></action></item>
+				<item label='iaxflood'><action name='Execute'><command>urxvt -geometry 100x30 -title 'iaxflood' -e sh -c 'iaxflood  ; zsh'</command></action></item>
+				<item label='inviteflood'><action name='Execute'><command>urxvt -geometry 100x30 -title 'inviteflood' -e sh -c 'inviteflood  ; zsh'</command></action></item>
+				<item label='nkiller2'><action name='Execute'><command>urxvt -geometry 100x30 -title 'nkiller2' -e sh -c 'nkiller2  ; zsh'</command></action></item>
+				<item label='t50'><action name='Execute'><command>urxvt -geometry 100x30 -title 't50' -e sh -c 't50  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-logging' label='Logging'>
+				<item label='derrick'><action name='Execute'><command>urxvt -geometry 100x30 -title 'derrick' -e sh -c 'derrick  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-reverse' label='Reverse'>
+				<item label='dex2jar'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dex2jar' -e sh -c 'dex2jar  ; zsh'</command></action></item>
+				<item label='edb'><action name='Execute'><command>urxvt -geometry 100x30 -title 'edb' -e sh -c 'edb  ; zsh'</command></action></item>
+				<item label='elidecode-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'elidecode-git' -e sh -c 'elidecode-git  ; zsh'</command></action></item>
+				<item label='jd-gui'><action name='Execute'><command>urxvt -geometry 100x30 -title 'jd-gui' -e sh -c 'jd-gui  ; zsh'</command></action></item>
+				<item label='packerid-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'packerid-git' -e sh -c 'packerid-git  ; zsh'</command></action></item>
+				<item label='pev'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pev' -e sh -c 'pev  ; zsh'</command></action></item>
+				<item label='swfintruder'><action name='Execute'><command>urxvt -geometry 100x30 -title 'swfintruder' -e sh -c 'swfintruder  ; zsh'</command></action></item>
+				<item label='udis86'><action name='Execute'><command>urxvt -geometry 100x30 -title 'udis86' -e sh -c 'udis86  ; zsh'</command></action></item>
+				<item label='xorsearch'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xorsearch' -e sh -c 'xorsearch  ; zsh'</command></action></item>
+				<item label='xorstrings'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xorstrings' -e sh -c 'xorstrings  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-discovery' label='Discovery'>
+				<item label='dirble'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dirble' -e sh -c 'dirble  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-dns' label='DNS'>
+				<item label='dns-spoof-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dns-spoof-git' -e sh -c 'dns-spoof-git  ; zsh'</command></action></item>
+				<item label='dnsbrute-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'dnsbrute-git' -e sh -c 'dnsbrute-git  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+				<item label='massdns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'massdns-git' -e sh -c 'massdns-git  ; zsh'</command></action></item>
+				<item label='scrape-dns-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scrape-dns-git' -e sh -c 'scrape-dns-git  ; zsh'</command></action></item>
+				<item label='sublist3r-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'sublist3r-git' -e sh -c 'sublist3r-git  ; zsh'</command></action></item>
+				<item label='urlcrazy'><action name='Execute'><command>urxvt -geometry 100x30 -title 'urlcrazy' -e sh -c 'urlcrazy  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-debugging' label='Debugging'>
+				<item label='edb'><action name='Execute'><command>urxvt -geometry 100x30 -title 'edb' -e sh -c 'edb  ; zsh'</command></action></item>
+				<item label='elidecode-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'elidecode-git' -e sh -c 'elidecode-git  ; zsh'</command></action></item>
+				<item label='lisa.py-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'lisa.py-git' -e sh -c 'lisa.py-git  ; zsh'</command></action></item>
+				<item label='shellnoob'><action name='Execute'><command>urxvt -geometry 100x30 -title 'shellnoob' -e sh -c 'shellnoob  ; zsh'</command></action></item>
+				<item label='udis86'><action name='Execute'><command>urxvt -geometry 100x30 -title 'udis86' -e sh -c 'udis86  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-intel' label='Intel'>
+				<item label='forager'><action name='Execute'><command>urxvt -geometry 100x30 -title 'forager' -e sh -c 'forager  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+				<item label='missidentify'><action name='Execute'><command>urxvt -geometry 100x30 -title 'missidentify' -e sh -c 'missidentify  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-honeypots' label='Honeypots'>
+				<item label='ghostpop3'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ghostpop3' -e sh -c 'ghostpop3  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-info' label='Info'>
+				<item label='gitminer-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gitminer-git' -e sh -c 'gitminer-git  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-enumeration' label='Enumeration'>
+				<item label='gobuster'><action name='Execute'><command>urxvt -geometry 100x30 -title 'gobuster' -e sh -c 'gobuster  ; zsh'</command></action></item>
+				<item label='knock-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'knock-git' -e sh -c 'knock-git  ; zsh'</command></action></item>
+				<item label='smbmap-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'smbmap-git' -e sh -c 'smbmap-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-ddos' label='DDOS'>
+				<item label='hulk-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'hulk-git' -e sh -c 'hulk-git  ; zsh'</command></action></item>
+				<item label='torshammer'><action name='Execute'><command>urxvt -geometry 100x30 -title 'torshammer' -e sh -c 'torshammer  ; zsh'</command></action></item>
+				<item label='ufonet'><action name='Execute'><command>urxvt -geometry 100x30 -title 'ufonet' -e sh -c 'ufonet  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-stego' label='Stego'>
+				<item label='matroschka-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'matroschka-git' -e sh -c 'matroschka-git  ; zsh'</command></action></item>
+				<item label='outguess'><action name='Execute'><command>urxvt -geometry 100x30 -title 'outguess' -e sh -c 'outguess  ; zsh'</command></action></item>
+				<item label='pngcheck'><action name='Execute'><command>urxvt -geometry 100x30 -title 'pngcheck' -e sh -c 'pngcheck  ; zsh'</command></action></item>
+				<item label='stegsolve'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stegsolve' -e sh -c 'stegsolve  ; zsh'</command></action></item>
+				<item label='stepic'><action name='Execute'><command>urxvt -geometry 100x30 -title 'stepic' -e sh -c 'stepic  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-drone' label='Drone'>
+				<item label='mavlink-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mavlink-git' -e sh -c 'mavlink-git  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-wordlists' label='Wordlists'>
+				<item label='mentalist'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mentalist' -e sh -c 'mentalist  ; zsh'</command></action></item>
+				<item label='mutator'><action name='Execute'><command>urxvt -geometry 100x30 -title 'mutator' -e sh -c 'mutator  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-exploits' label='Exploits'>
+				<item label='metasploit-framework'><action name='Execute'><command>urxvt -geometry 100x30 -title 'metasploit-framework' -e sh -c 'metasploit-framework  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-scanner' label='Scanner'>
+				<item label='scannerl-git'><action name='Execute'><command>urxvt -geometry 100x30 -title 'scannerl-git' -e sh -c 'scannerl-git  ; zsh'</command></action></item>
+				<item label='xsstrike'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsstrike' -e sh -c 'xsstrike  ; zsh'</command></action></item>
+			</menu>
+			<menu id='archstrike-webapp' label='Web App'>
+				<item label='xsstrike'><action name='Execute'><command>urxvt -geometry 100x30 -title 'xsstrike' -e sh -c 'xsstrike  ; zsh'</command></action></item>
+			</menu>
+		</menu>
+	</menu>
+</openbox_menu>

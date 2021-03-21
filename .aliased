@@ -1,12 +1,19 @@
 # I3 Config
 alias i3='vim ~/.config/i3/config'
 
+# Antivirus
+alias avupdate="freshclam"
+alias avscan="clamscan -ri /home >> /var/log/clamav/dailyscan.log"
+alias avlog="cat /var/log/clamav/dailyscan.log | less"
+
 # Pacman Command
 alias pcu="sudo pacman -Syu"
 alias pci="sudo pacman -S"
-alias pcr="sudo pacman -R"
-alias pccr='sudo pacman -Runscd'
-alias pcs="pacman -Ss"
+alias update="sudo pacman -Syu"
+alias install="sudo pacman -S"
+alias remove="sudo pacman -R"
+alias pccr='sudo pacman -Runs'
+alias search="pacman -Ss"
 alias pcrc='sudo pacman -Rsnd'
 alias clean='sudo pacman -Sc'
 alias autoremove='sudo pacman -Rsn $(pacman -Qtdq)'
@@ -102,3 +109,5 @@ alias usbrulesno='sudo usbguard remove-rule'
 alias sysinfo='neofetch --ascii ~/.config/neofetch/jb'
 
 alias sx='startx'
+
+compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION

@@ -1,0 +1,94 @@
+! Colorscheme
+! special
+*.foreground: #d5d5d5
+*.background: #373737
+*.cursorColor: #808080
+
+! black
+*.color0: #151515
+*.color8: #373737
+
+! red 
+*.color1: #c23535
+*.color9: #c16060
+
+! green
+*.color2: #37c235
+*.color10: #62c260
+
+! yellow
+*.color3: #bec235
+*.color11: #bdc260
+
+! blue
+*.color4: #3b35c2
+*.color12: #827fc2
+
+! magenta
+*.color5: #b035c2
+*.color13: #bb82c4
+
+! cyan
+*.color6: #35c0c2
+*.color14: #82bfc0
+
+! white
+*.color7: #e5e5e5
+*.color15: #c7c7c7
+
+!! URxvt Appearance
+URxvt.font: xft:agave Nerd Font Mono:size=10, xft:Monofur Nerd Font:size=10
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 80x25 
+URxvt.internalBorder: 24
+URxvt.cursorBlink: false
+URxvt.cursorUnderline: false 
+URxvt.saveline: 2048 
+URxvt.scrollBar: false 
+URxvt.scrollBar_right: false 
+URxvt.urgentOnBell: true 
+URxvt.depth: 24
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.termName: rxvt-256color
+URxvt.utf8: true
+URxvt.local: true
+!URxvt.transparent:  true
+!URxvt.shading:      10
+
+!! Common Keybinds for Navigations 
+URxvt.keysym.Shift-Up: command:\033]720;1\007 
+URxvt.keysym.Shift-Down: command:\033]721;1\007 
+
+!Xterm escape codes, word by word movement
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B
+
+!! Copy Paste & Other Extensions 
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select 
+URxvt.copyCommand: xclip -i -selection clipboard 
+URxvt.pasteCommand: xclip -o -selection clipboard 
+URxvt.keysym.M-c: perl:clipboard:copy 
+URxvt.keysym.M-v: perl:clipboard:paste 
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped 
+URxvt.keysym.M-Escape: perl:keyboard-select:activate 
+URxvt.keysym.M-s: perl:keyboard-select:search 
+URxvt.keysym.M-u: perl:url-select:select_next 
+URxvt.urlLauncher: firefox 
+URxvt.underlineURLs: true 
+URxvt.urlButton: 1
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+URxvt.font-size.step: 2
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
