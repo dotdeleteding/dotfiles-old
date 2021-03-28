@@ -9,12 +9,13 @@ alias avlog="cat /var/log/clamav/dailyscan.log | less"
 # Pacman Command
 alias pcu="sudo pacman -Syu"
 alias pci="sudo pacman -S"
+alias pcs="sudo pacman -Ss"
+alias pccr='sudo pacman -Runs'
+alias pcrc='sudo pacman -Rsnd'
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S"
 alias remove="sudo pacman -R"
-alias pccr='sudo pacman -Runs'
 alias search="pacman -Ss"
-alias pcrc='sudo pacman -Rsnd'
 alias clean='sudo pacman -Sc'
 alias autoremove='sudo pacman -Rsn $(pacman -Qtdq)'
 alias version='pacman -Q'
